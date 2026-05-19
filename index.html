@@ -4,25 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- ═══════════════════════════════════════════════════════════════
-       GOOGLE SEARCH CONSOLE — Replace content value after verifying
-       ═══════════════════════════════════════════════════════════════ -->
-  <meta name="google-site-verification" content="REPLACE_WITH_YOUR_GSC_VERIFICATION_CODE">
+  <!-- Google Search Console ──────────────────────────────────────── -->
+  <meta name="google-site-verification" content="google030d394dae3fee69">
 
   <!-- Primary SEO ────────────────────────────────────────────────── -->
   <title>PrizeWire | Sports Prize Money, Salaries & Payout Database</title>
   <meta name="description" content="The definitive database for sports prize money, player salaries, and tournament payouts. NFL, NBA, PGA Tour, F1, Tennis, UFC — every dollar, fully broken down.">
   <meta name="keywords" content="sports prize money, PGA Championship payout 2026, NBA Finals prize pool, F1 prize fund, Super Bowl player share, Wimbledon prize money, UFC fighter purse, sports financial data, tournament winnings, playoff payouts, player salaries">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-  <link rel="canonical" href="https://prizewire.com/">
+  <link rel="canonical" href="https://prizewire.vercel.app/">
 
   <!-- Open Graph ──────────────────────────────────────────────────── -->
   <meta property="og:type"        content="website">
   <meta property="og:site_name"   content="PrizeWire">
   <meta property="og:title"       content="PrizeWire | Sports Prize Money & Payout Database">
   <meta property="og:description" content="The definitive source for sports prize money, player salaries, and tournament payout breakdowns. Every dollar. Every sport.">
-  <meta property="og:url"         content="https://prizewire.com/">
-  <meta property="og:image"       content="https://prizewire.com/og-image.jpg">
+  <meta property="og:url"         content="https://prizewire.vercel.app/">
+  <meta property="og:image"       content="https://prizewire.vercel.app/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height"content="630">
 
@@ -31,7 +29,7 @@
   <meta name="twitter:site"        content="@prizewire">
   <meta name="twitter:title"       content="PrizeWire | Sports Prize Money Database">
   <meta name="twitter:description" content="Every dollar in professional sports. Prize pools, salaries, playoff payouts — fully broken down.">
-  <meta name="twitter:image"       content="https://prizewire.com/og-image.jpg">
+  <meta name="twitter:image"       content="https://prizewire.vercel.app/og-image.jpg">
 
   <!-- Schema.org: WebSite ─────────────────────────────────────────── -->
   <script type="application/ld+json">
@@ -39,18 +37,18 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "PrizeWire",
-    "url": "https://prizewire.com",
+    "url": "https://prizewire.vercel.app",
     "description": "The definitive database for sports prize money, player salaries, and tournament payouts.",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": { "@type": "EntryPoint", "urlTemplate": "https://prizewire.com/search?q={search_term_string}" },
+      "target": { "@type": "EntryPoint", "urlTemplate": "https://prizewire.vercel.app/search?q={search_term_string}" },
       "query-input": "required name=search_term_string"
     },
     "publisher": {
       "@type": "Organization",
       "name": "PrizeWire",
-      "url": "https://prizewire.com",
-      "logo": { "@type": "ImageObject", "url": "https://prizewire.com/logo.png" }
+      "url": "https://prizewire.vercel.app",
+      "logo": { "@type": "ImageObject", "url": "https://prizewire.vercel.app/favicon.svg" }
     }
   }
   </script>
@@ -62,13 +60,17 @@
     "@type": "ItemList",
     "name": "Latest Sports Payout Breakdowns",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "PGA Championship 2026 Payout",   "url": "https://prizewire.com/articles/pga-championship-2026-payout" },
-      { "@type": "ListItem", "position": 2, "name": "NBA Finals 2026 Prize Pool",       "url": "https://prizewire.com/articles/nba-finals-2026-payout" },
-      { "@type": "ListItem", "position": 3, "name": "F1 2026 Constructor Prize Fund",   "url": "https://prizewire.com/articles/f1-2026-prize-fund-breakdown" },
-      { "@type": "ListItem", "position": 4, "name": "Super Bowl LIX Player Payout",     "url": "https://prizewire.com/articles/super-bowl-lix-payout" }
+      { "@type": "ListItem", "position": 1, "name": "PGA Championship 2026 Payout",   "url": "https://prizewire.vercel.app/articles/pga-championship-2026-payout" },
+      { "@type": "ListItem", "position": 2, "name": "NBA Finals 2026 Prize Pool",       "url": "https://prizewire.vercel.app/articles/nba-finals-2026-payout" },
+      { "@type": "ListItem", "position": 3, "name": "F1 2026 Constructor Prize Fund",   "url": "https://prizewire.vercel.app/articles/f1-2026-prize-fund-breakdown" },
+      { "@type": "ListItem", "position": 4, "name": "Super Bowl LIX Player Payout",     "url": "https://prizewire.vercel.app/articles/super-bowl-lix-payout" }
     ]
   }
   </script>
+
+  <!-- Favicon ─────────────────────────────────────────────────────── -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/favicon.svg">
 
   <!-- Fonts ───────────────────────────────────────────────────────── -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -78,20 +80,14 @@
   <!-- Stylesheet ──────────────────────────────────────────────────── -->
   <link rel="stylesheet" href="/css/style.css">
 
-  <!-- ═══════════════════════════════════════════════════════════════
-       GOOGLE ANALYTICS 4
-       1. Go to analytics.google.com → create GA4 property
-       2. Replace GA_MEASUREMENT_ID below (format: G-XXXXXXXXXX)
-       3. Uncomment the two script blocks
-       ═══════════════════════════════════════════════════════════════
-  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <!-- Google Analytics 4 ─────────────────────────────────────────── -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GQQT6BFW2C"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){ dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', 'GA_MEASUREMENT_ID');
+    gtag('config', 'G-GQQT6BFW2C');
   </script>
-  -->
 </head>
 <body>
 

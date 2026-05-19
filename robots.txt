@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://prizewire.vercel.app/sitemap.xml

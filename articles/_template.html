@@ -42,23 +42,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- GSC — same code as homepage -->
-  <meta name="google-site-verification" content="REPLACE_WITH_YOUR_GSC_VERIFICATION_CODE">
+  <!-- GSC -->
+  <meta name="google-site-verification" content="google030d394dae3fee69">
 
   <!-- Primary SEO -->
   <title>{{ARTICLE_TITLE}} | PrizeWire</title>
   <meta name="description" content="{{META_DESC}}">
   <meta name="keywords"    content="{{SEO_KEYWORDS}}">
   <meta name="robots"      content="index, follow, max-snippet:-1, max-image-preview:large">
-  <link rel="canonical"    href="https://prizewire.com/articles/{{SLUG}}">
+  <link rel="canonical"    href="https://prizewire.vercel.app/articles/{{SLUG}}">
 
   <!-- Open Graph -->
   <meta property="og:type"         content="article">
   <meta property="og:site_name"    content="PrizeWire">
   <meta property="og:title"        content="{{ARTICLE_TITLE}} | PrizeWire">
   <meta property="og:description"  content="{{META_DESC}}">
-  <meta property="og:url"          content="https://prizewire.com/articles/{{SLUG}}">
-  <meta property="og:image"        content="https://prizewire.com/og-image.jpg">
+  <meta property="og:url"          content="https://prizewire.vercel.app/articles/{{SLUG}}">
+  <meta property="og:image"        content="https://prizewire.vercel.app/og-image.jpg">
 
   <!-- Twitter Card -->
   <meta name="twitter:card"        content="summary_large_image">
@@ -66,7 +66,7 @@
   <meta name="twitter:title"       content="{{ARTICLE_TITLE}} | PrizeWire">
   <meta name="twitter:description" content="{{META_DESC}}">
 
-  <!-- Schema.org Article (critical for Google rich results) -->
+  <!-- Schema.org Article -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -75,28 +75,30 @@
     "description": "{{META_DESC}}",
     "datePublished": "{{ISO_DATE}}",
     "dateModified": "{{ISO_DATE}}",
-    "url": "https://prizewire.com/articles/{{SLUG}}",
+    "url": "https://prizewire.vercel.app/articles/{{SLUG}}",
     "publisher": {
       "@type": "Organization",
       "name": "PrizeWire",
-      "url": "https://prizewire.com",
-      "logo": { "@type": "ImageObject", "url": "https://prizewire.com/logo.png" }
+      "url": "https://prizewire.vercel.app",
+      "logo": { "@type": "ImageObject", "url": "https://prizewire.vercel.app/favicon.svg" }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://prizewire.com/articles/{{SLUG}}"
+      "@id": "https://prizewire.vercel.app/articles/{{SLUG}}"
     }
   }
   </script>
 
-  <!-- GA4 — same as homepage -->
-  <!--
-  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/favicon.svg">
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GQQT6BFW2C"></script>
   <script>
     window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
-    gtag('js',new Date());gtag('config','GA_MEASUREMENT_ID');
+    gtag('js',new Date());gtag('config','G-GQQT6BFW2C');
   </script>
-  -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
