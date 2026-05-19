@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       GOOGLE SEARCH CONSOLE — Replace content value after verifying
+       ═══════════════════════════════════════════════════════════════ -->
+  <meta name="google-site-verification" content="REPLACE_WITH_YOUR_GSC_VERIFICATION_CODE">
+
+  <!-- Primary SEO ────────────────────────────────────────────────── -->
+  <title>PrizeWire | Sports Prize Money, Salaries & Payout Database</title>
+  <meta name="description" content="The definitive database for sports prize money, player salaries, and tournament payouts. NFL, NBA, PGA Tour, F1, Tennis, UFC — every dollar, fully broken down.">
+  <meta name="keywords" content="sports prize money, PGA Championship payout 2026, NBA Finals prize pool, F1 prize fund, Super Bowl player share, Wimbledon prize money, UFC fighter purse, sports financial data, tournament winnings, playoff payouts, player salaries">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <link rel="canonical" href="https://prizewire.com/">
+
+  <!-- Open Graph ──────────────────────────────────────────────────── -->
+  <meta property="og:type"        content="website">
+  <meta property="og:site_name"   content="PrizeWire">
+  <meta property="og:title"       content="PrizeWire | Sports Prize Money & Payout Database">
+  <meta property="og:description" content="The definitive source for sports prize money, player salaries, and tournament payout breakdowns. Every dollar. Every sport.">
+  <meta property="og:url"         content="https://prizewire.com/">
+  <meta property="og:image"       content="https://prizewire.com/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height"content="630">
+
+  <!-- Twitter Card ────────────────────────────────────────────────── -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:site"        content="@prizewire">
+  <meta name="twitter:title"       content="PrizeWire | Sports Prize Money Database">
+  <meta name="twitter:description" content="Every dollar in professional sports. Prize pools, salaries, playoff payouts — fully broken down.">
+  <meta name="twitter:image"       content="https://prizewire.com/og-image.jpg">
+
+  <!-- Schema.org: WebSite ─────────────────────────────────────────── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "PrizeWire",
+    "url": "https://prizewire.com",
+    "description": "The definitive database for sports prize money, player salaries, and tournament payouts.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": { "@type": "EntryPoint", "urlTemplate": "https://prizewire.com/search?q={search_term_string}" },
+      "query-input": "required name=search_term_string"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "PrizeWire",
+      "url": "https://prizewire.com",
+      "logo": { "@type": "ImageObject", "url": "https://prizewire.com/logo.png" }
+    }
+  }
+  </script>
+
+  <!-- Schema.org: ItemList (featured payouts for rich results) ────── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Latest Sports Payout Breakdowns",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "PGA Championship 2026 Payout",   "url": "https://prizewire.com/articles/pga-championship-2026-payout" },
+      { "@type": "ListItem", "position": 2, "name": "NBA Finals 2026 Prize Pool",       "url": "https://prizewire.com/articles/nba-finals-2026-payout" },
+      { "@type": "ListItem", "position": 3, "name": "F1 2026 Constructor Prize Fund",   "url": "https://prizewire.com/articles/f1-2026-prize-fund-breakdown" },
+      { "@type": "ListItem", "position": 4, "name": "Super Bowl LIX Player Payout",     "url": "https://prizewire.com/articles/super-bowl-lix-payout" }
+    ]
+  }
+  </script>
+
+  <!-- Fonts ───────────────────────────────────────────────────────── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet ──────────────────────────────────────────────────── -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       GOOGLE ANALYTICS 4
+       1. Go to analytics.google.com → create GA4 property
+       2. Replace GA_MEASUREMENT_ID below (format: G-XXXXXXXXXX)
+       3. Uncomment the two script blocks
+       ═══════════════════════════════════════════════════════════════
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+  -->
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════
+       TICKER BAR — live payout data scroll
+       ═══════════════════════════════════════════════════════ -->
+  <div class="ticker-bar" role="marquee" aria-label="Latest sports payout data">
+    <div class="ticker-label">PRIZE WIRE</div>
+    <div class="ticker-scroll-wrap">
+      <div class="ticker-track" id="ticker-track">
+        <!-- Populated by app.js; static fallback: -->
+        <span class="ticker-item">
+          <span class="ticker-item__event">PGA Championship 2026</span>
+          <span class="ticker-item__value">$21M purse</span>
+          <span class="ticker-item__badge ticker-item__badge--latest">LATEST</span>
+        </span>
+        <span class="ticker-item">
+          <span class="ticker-item__event">NBA Finals 2026</span>
+          <span class="ticker-item__value">$547K/player</span>
+          <span class="ticker-item__badge ticker-item__badge--live">LIVE</span>
+        </span>
+        <span class="ticker-item">
+          <span class="ticker-item__event">F1 2026 Season Prize Fund</span>
+          <span class="ticker-item__value">$1.1B total</span>
+          <span class="ticker-item__badge ticker-item__badge--season">SEASON</span>
+        </span>
+        <span class="ticker-item">
+          <span class="ticker-item__event">Super Bowl LIX</span>
+          <span class="ticker-item__value">$157K/player</span>
+          <span class="ticker-item__badge ticker-item__badge--final">FINAL</span>
+        </span>
+        <span class="ticker-item">
+          <span class="ticker-item__event">Wimbledon 2025 Champion</span>
+          <span class="ticker-item__value">£3,180,000</span>
+          <span class="ticker-item__badge ticker-item__badge--final">FINAL</span>
+        </span>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       HEADER
+       ═══════════════════════════════════════════════════════ -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+
+        <a href="/" class="site-logo" aria-label="PrizeWire — Sports Prize Money Database">
+          <div class="logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 1.5L2.5 14h3.2l.9-2.4h2.8l.9 2.4H13.5L8 1.5zm0 4.5l1.1 3.5H6.9L8 6z" fill="#000"/>
+            </svg>
+          </div>
+          <span class="logo-text">PRIZE<span>WIRE</span></span>
+        </a>
+
+        <nav class="sport-nav" aria-label="Filter by sport">
+          <button class="sport-nav-item" data-sport="ALL" data-active="true">ALL</button>
+          <button class="sport-nav-item" data-sport="NFL">NFL</button>
+          <button class="sport-nav-item" data-sport="NBA">NBA</button>
+          <button class="sport-nav-item" data-sport="PGA">PGA TOUR</button>
+          <button class="sport-nav-item" data-sport="F1">F1</button>
+          <button class="sport-nav-item" data-sport="Tennis">TENNIS</button>
+          <button class="sport-nav-item" data-sport="UFC">UFC</button>
+          <button class="sport-nav-item" data-sport="Boxing">BOXING</button>
+          <button class="sport-nav-item" data-sport="MLB">MLB</button>
+          <button class="sport-nav-item" data-sport="NHL">NHL</button>
+        </nav>
+
+        <div class="header-actions">
+          <span id="last-updated" aria-live="polite"></span>
+          <button class="btn-outline" aria-label="Subscribe to newsletter">NEWSLETTER</button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+
+  <main id="main-content">
+
+    <!-- ═══════════════════════════════════════════════════════
+         HERO
+         ═══════════════════════════════════════════════════════ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-inner">
+
+          <div class="hero-content">
+            <div class="hero-kicker" aria-hidden="true">SPORTS FINANCIAL INTELLIGENCE</div>
+            <h1 class="hero-title" id="hero-title">
+              Sports Money.<br><em>Fully Covered.</em>
+            </h1>
+            <p class="hero-desc">
+              The most comprehensive database of prize money, player salaries, and tournament payouts in professional sports.
+              Every dollar broken down — from the Super Bowl winner's share to F1's billion-dollar constructor fund.
+            </p>
+            <div class="hero-stats" aria-label="Site statistics">
+              <div class="hero-stat">
+                <div class="hero-stat__num">50+</div>
+                <div class="hero-stat__label">EVENTS TRACKED</div>
+              </div>
+              <div class="hero-stat">
+                <div class="hero-stat__num">8</div>
+                <div class="hero-stat__label">SPORTS COVERED</div>
+              </div>
+              <div class="hero-stat">
+                <div class="hero-stat__num">$1B+</div>
+                <div class="hero-stat__label">LARGEST PRIZE FUND</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Populated/refreshed by app.js; static default shown first for SEO -->
+          <div class="hero-card" id="hero-featured-card" aria-label="Featured event payout">
+            <div class="hero-card__tag">LATEST PAYOUT DATA</div>
+            <div class="hero-card__label">FEATURED EVENT</div>
+            <div class="hero-card__event">PGA Championship 2026</div>
+            <div class="hero-card__venue">Quail Hollow Club, Charlotte</div>
+            <div class="hero-card__purse-label">TOTAL PURSE</div>
+            <div class="hero-card__purse">$21,000,000</div>
+            <div class="hero-card__winner-label">WINNER PAYOUT</div>
+            <div class="hero-card__winner">$3,780,000</div>
+            <a href="/articles/pga-championship-2026-payout" class="hero-card__link">Full Breakdown →</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- AD SLOT: Leaderboard 728×90 ─────────────────────── -->
+    <div class="container" style="padding-block:20px 0">
+      <div class="ad-slot ad-slot--leaderboard" aria-label="Advertisement">
+        <span class="ad-slot__label">ADVERTISEMENT</span>
+        <span class="ad-slot__size">728 × 90 — Leaderboard</span>
+        <!-- ╔══════════════════════════════════════════════════════╗
+             ║  INSERT AD CODE HERE (AdSense / direct ad tag)      ║
+             ║  Recommended: finance, sports gear, sports betting  ║
+             ╚══════════════════════════════════════════════════════╝ -->
+      </div>
+    </div>
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         LATEST PAYOUT CARDS
+         ═══════════════════════════════════════════════════════ -->
+    <section class="section" aria-labelledby="featured-title">
+      <div class="container">
+
+        <div class="section-header">
+          <div>
+            <h2 class="section-title" id="featured-title">Latest Payouts</h2>
+            <p class="section-subtitle">Real prize money data — broken down to the dollar</p>
+          </div>
+          <a href="/articles/" class="section-link">All Breakdowns →</a>
+        </div>
+
+        <!-- Populated by app.js. HTML below is SEO-visible static fallback. -->
+        <div class="cards-grid" id="cards-grid" role="list" aria-label="Payout cards">
+
+          <article class="payout-card" role="listitem">
+            <div class="card-top">
+              <span class="sport-badge" style="background:#006837">PGA</span>
+              <span class="status-badge status-badge--latest">LATEST</span>
+            </div>
+            <h3 class="card-event">PGA Championship 2026</h3>
+            <div class="card-venue">Quail Hollow Club · May 2026</div>
+            <div class="card-divider"></div>
+            <div class="card-purse-label">WINNER PAYOUT</div>
+            <div class="card-winner-payout">$3,780,000</div>
+            <div class="card-total-purse">Total Purse: $21,000,000</div>
+            <ul class="card-breakdown">
+              <li><span class="breakdown-place">1st</span><span class="breakdown-pct">18%</span><span class="breakdown-amount">$3,780,000</span></li>
+              <li><span class="breakdown-place">2nd</span><span class="breakdown-pct">11%</span><span class="breakdown-amount">$2,268,000</span></li>
+              <li><span class="breakdown-place">3rd</span><span class="breakdown-pct">7%</span><span class="breakdown-amount">$1,428,000</span></li>
+              <li><span class="breakdown-place">4th</span><span class="breakdown-pct">5%</span><span class="breakdown-amount">$1,008,000</span></li>
+              <li><span class="breakdown-place">5th</span><span class="breakdown-pct">4%</span><span class="breakdown-amount">$840,000</span></li>
+            </ul>
+            <div class="card-footer">
+              <a href="/articles/pga-championship-2026-payout" class="card-cta">Full Breakdown →</a>
+              <span class="card-date">May 2026</span>
+            </div>
+          </article>
+
+          <article class="payout-card" role="listitem">
+            <div class="card-top">
+              <span class="sport-badge" style="background:#C9082A">NBA</span>
+              <span class="status-badge status-badge--live">LIVE</span>
+            </div>
+            <h3 class="card-event">NBA Finals 2026</h3>
+            <div class="card-venue">Playoffs Prize Pool · June 2026</div>
+            <div class="card-divider"></div>
+            <div class="card-purse-label">WINNER PAYOUT</div>
+            <div class="card-winner-payout">$547K/player</div>
+            <div class="card-total-purse">Total Pool: $24,600,000</div>
+            <ul class="card-breakdown">
+              <li><span class="breakdown-place">Champion Share</span><span class="breakdown-amount">$547,000</span></li>
+              <li><span class="breakdown-place">Runner-up</span><span class="breakdown-amount">$272,000</span></li>
+              <li><span class="breakdown-place">Conf. Finalist</span><span class="breakdown-amount">$174,000</span></li>
+              <li><span class="breakdown-place">2nd Rd. Exit</span><span class="breakdown-amount">$87,000</span></li>
+            </ul>
+            <div class="card-footer">
+              <a href="/articles/nba-finals-2026-payout" class="card-cta">Full Breakdown →</a>
+              <span class="card-date">June 2026</span>
+            </div>
+          </article>
+
+          <article class="payout-card" role="listitem">
+            <div class="card-top">
+              <span class="sport-badge" style="background:#E8002D">F1</span>
+              <span class="status-badge status-badge--season">SEASON</span>
+            </div>
+            <h3 class="card-event">F1 2026 Season Fund</h3>
+            <div class="card-venue">FOM Revenue Distribution · 2026</div>
+            <div class="card-divider"></div>
+            <div class="card-purse-label">WCC WINNER PAYOUT</div>
+            <div class="card-winner-payout">~$147M</div>
+            <div class="card-total-purse">Total Fund: $1,100,000,000</div>
+            <ul class="card-breakdown">
+              <li><span class="breakdown-place">WCC 1st</span><span class="breakdown-pct">~13%</span><span class="breakdown-amount">~$147M</span></li>
+              <li><span class="breakdown-place">WCC 2nd</span><span class="breakdown-pct">~12%</span><span class="breakdown-amount">~$132M</span></li>
+              <li><span class="breakdown-place">WCC 3rd</span><span class="breakdown-pct">~10%</span><span class="breakdown-amount">~$112M</span></li>
+              <li><span class="breakdown-place">WCC 10th</span><span class="breakdown-pct">~3%</span><span class="breakdown-amount">~$35M</span></li>
+            </ul>
+            <div class="card-footer">
+              <a href="/articles/f1-2026-prize-fund-breakdown" class="card-cta">Full Breakdown →</a>
+              <span class="card-date">2026 Season</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         BIGGEST PRIZE POOLS — LEADERBOARD TABLE
+         ═══════════════════════════════════════════════════════ -->
+    <section class="section section--sm" style="padding-top:0" aria-labelledby="leaderboard-title">
+      <div class="container">
+
+        <div class="section-header">
+          <div>
+            <h2 class="section-title" id="leaderboard-title">Biggest Prize Pools</h2>
+            <p class="section-subtitle">Ranked by total prize fund — 2025–2026</p>
+          </div>
+          <a href="/leaderboard/" class="section-link">Full Rankings →</a>
+        </div>
+
+        <div class="leaderboard-wrap">
+          <table class="leaderboard-table" aria-label="Prize pool leaderboard ranked by total fund">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Event</th>
+                <th scope="col">Sport</th>
+                <th scope="col">Year</th>
+                <th scope="col">Total Prize</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboard-body">
+              <!-- Populated by app.js; static SEO fallback: -->
+              <tr>
+                <td class="lb-rank lb-rank--gold">1</td>
+                <td class="lb-event"><a href="/articles/f1-2026-prize-fund-breakdown">F1 2026 Season Prize Fund</a></td>
+                <td class="lb-sport"><span class="sport-badge" style="background:#E8002D">F1</span></td>
+                <td class="lb-year">2026</td>
+                <td class="lb-purse">$1,100,000,000</td>
+              </tr>
+              <tr>
+                <td class="lb-rank lb-rank--silver">2</td>
+                <td class="lb-event"><a href="/articles/nfl-playoff-payout-2026">NFL 2025–26 Total Playoff Pool</a></td>
+                <td class="lb-sport"><span class="sport-badge" style="background:#003F8A">NFL</span></td>
+                <td class="lb-year">2026</td>
+                <td class="lb-purse">$120,000,000</td>
+              </tr>
+              <tr>
+                <td class="lb-rank lb-rank--bronze">3</td>
+                <td class="lb-event"><a href="/articles/us-open-tennis-2025-payout">US Open Tennis 2025</a></td>
+                <td class="lb-sport"><span class="sport-badge" style="background:#4A7C59">Tennis</span></td>
+                <td class="lb-year">2025</td>
+                <td class="lb-purse">$65,000,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         SPORT DEEP-DIVES (SEO CONTENT — DO NOT REMOVE)
+         ═══════════════════════════════════════════════════════ -->
+    <section class="section" aria-labelledby="sport-guide-title">
+      <div class="container">
+
+        <div class="section-header">
+          <div>
+            <h2 class="section-title" id="sport-guide-title">Money by Sport</h2>
+            <p class="section-subtitle">How prize money works in every major sport</p>
+          </div>
+        </div>
+
+        <div class="sport-tabs" role="tablist" aria-label="Sport deep-dives">
+          <button class="sport-tab active" role="tab" data-sport="NFL"    aria-selected="true"  aria-controls="panel-nfl">NFL</button>
+          <button class="sport-tab"        role="tab" data-sport="NBA"    aria-selected="false" aria-controls="panel-nba">NBA</button>
+          <button class="sport-tab"        role="tab" data-sport="PGA"    aria-selected="false" aria-controls="panel-pga">PGA TOUR</button>
+          <button class="sport-tab"        role="tab" data-sport="F1"     aria-selected="false" aria-controls="panel-f1">F1</button>
+          <button class="sport-tab"        role="tab" data-sport="Tennis" aria-selected="false" aria-controls="panel-tennis">TENNIS</button>
+          <button class="sport-tab"        role="tab" data-sport="UFC"    aria-selected="false" aria-controls="panel-ufc">UFC</button>
+        </div>
+
+        <!-- NFL ─────────────────────────────────────────────── -->
+        <div class="sport-panel active" id="panel-nfl" data-sport="NFL" role="tabpanel">
+          <div class="sport-panel__content">
+            <h3 class="sport-panel__title">NFL Playoff Prize Money</h3>
+            <p class="sport-panel__body">
+              The NFL distributes playoff prize money through a structured per-player bonus system negotiated annually. Players earn incremental bonuses at each round — Wild Card, Divisional, Conference Championship, and Super Bowl — on top of their base salary. The Super Bowl winner's player share is the largest per-player bonus in American team sports.
+            </p>
+            <p class="sport-panel__body">
+              For 2025–26, the NFL's total playoff pool exceeds <strong>$120 million</strong>. The Super Bowl LIX winner's share was <strong>$157,000 per player</strong>. That number only captures the disclosed NFL bonus — roster incentives, performance clauses, and signing bonuses can substantially increase a player's actual event earnings.
+            </p>
+            <ul class="sport-stat-list" aria-label="NFL payout figures">
+              <li class="sport-stat-item"><span class="stat-label">Super Bowl Winner Share</span>  <span class="stat-value">$157,000/player</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Super Bowl Loser Share</span>   <span class="stat-value">$82,000/player</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Conf. Championship Win</span>   <span class="stat-value">$67,000/player</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Divisional Round Win</span>     <span class="stat-value">$54,000/player</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Wild Card Win</span>            <span class="stat-value">$41,000/player</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Total Playoff Pool 2025–26</span><span class="stat-value">$120,000,000</span></li>
+            </ul>
+          </div>
+          <div class="sport-panel__sidebar">
+            <div class="sport-big-stat">
+              <div class="sport-big-stat__label">SUPER BOWL LIX — WINNER SHARE</div>
+              <div class="sport-big-stat__num">$157K</div>
+              <div class="sport-big-stat__sub">Per player · New Orleans, Feb 2025</div>
+            </div>
+            <div class="sport-big-stat sport-big-stat--transparent" style="background:transparent">
+              <div class="sport-big-stat__label">TOTAL PLAYOFF POOL</div>
+              <div class="sport-big-stat__num" style="font-size:42px">$120M</div>
+              <div class="sport-big-stat__sub">NFL 2025–26 postseason</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NBA ─────────────────────────────────────────────── -->
+        <div class="sport-panel" id="panel-nba" data-sport="NBA" role="tabpanel">
+          <div class="sport-panel__content">
+            <h3 class="sport-panel__title">NBA Playoff Prize Money</h3>
+            <p class="sport-panel__body">
+              NBA playoff bonuses are distributed from a central prize pool split by round and seeding. Unlike salary cap figures — which are governed by the CBA — playoff bonuses are fixed each season by the league. The championship roster typically earns over <strong>$540,000 per player</strong> in playoff bonus money.
+            </p>
+            <p class="sport-panel__body">
+              The 2025–26 NBA playoff prize pool totals <strong>$24.6 million</strong>. First-round exits receive the smallest cut, while the champion's roster takes the largest share. These figures don't include the significant salary earnings players receive during playoff games per their existing contracts.
+            </p>
+            <ul class="sport-stat-list">
+              <li class="sport-stat-item"><span class="stat-label">Champion Player Share</span>     <span class="stat-value">$547,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Runner-up Player Share</span>    <span class="stat-value">$272,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Conf. Final Loser Share</span>   <span class="stat-value">$174,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Second Round Exit Share</span>   <span class="stat-value">$87,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">First Round Exit Share</span>    <span class="stat-value">$38,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Total Pool 2025–26</span>        <span class="stat-value">$24,600,000</span></li>
+            </ul>
+          </div>
+          <div class="sport-panel__sidebar">
+            <div class="sport-big-stat">
+              <div class="sport-big-stat__label">2025–26 CHAMPION PLAYER SHARE</div>
+              <div class="sport-big-stat__num">$547K</div>
+              <div class="sport-big-stat__sub">Per player · NBA Finals 2026</div>
+            </div>
+            <div class="sport-big-stat" style="background:transparent;border-color:var(--border)">
+              <div class="sport-big-stat__label">TOTAL PLAYOFF POOL</div>
+              <div class="sport-big-stat__num" style="font-size:42px">$24.6M</div>
+              <div class="sport-big-stat__sub">2025–26 postseason</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PGA ─────────────────────────────────────────────── -->
+        <div class="sport-panel" id="panel-pga" data-sport="PGA" role="tabpanel">
+          <div class="sport-panel__content">
+            <h3 class="sport-panel__title">PGA TOUR Prize Money</h3>
+            <p class="sport-panel__body">
+              PGA TOUR purses have grown dramatically, driven by competitive pressure from LIV Golf and rising media rights revenue. The four Major championships carry the greatest prestige, while The Players Championship commands the largest individual purse on Tour at <strong>$25 million</strong> in 2026.
+            </p>
+            <p class="sport-panel__body">
+              TOUR purse distribution follows a standard structure: the winner earns approximately <strong>18% of total purse</strong>. Players who miss the cut receive nothing. Purses scale dramatically — a $21M purse like the PGA Championship yields $3.78M to the winner, while 70th place earns roughly $22,000.
+            </p>
+            <ul class="sport-stat-list">
+              <li class="sport-stat-item"><span class="stat-label">The Players Champ. 2026</span>  <span class="stat-value">$25,000,000 purse</span></li>
+              <li class="sport-stat-item"><span class="stat-label">PGA Championship 2026</span>    <span class="stat-value">$21,000,000 purse</span></li>
+              <li class="sport-stat-item"><span class="stat-label">US Open Golf 2025</span>        <span class="stat-value">$21,500,000 purse</span></li>
+              <li class="sport-stat-item"><span class="stat-label">The Open 2025</span>            <span class="stat-value">$17,000,000 purse</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Masters 2026 Winner</span>      <span class="stat-value">$3,600,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Standard Winner's Share</span>  <span class="stat-value">~18% of purse</span></li>
+            </ul>
+          </div>
+          <div class="sport-panel__sidebar">
+            <div class="sport-big-stat">
+              <div class="sport-big-stat__label">PGA CHAMPIONSHIP 2026 — WINNER</div>
+              <div class="sport-big-stat__num">$3.78M</div>
+              <div class="sport-big-stat__sub">From $21M total purse · Quail Hollow</div>
+            </div>
+            <div class="sport-big-stat" style="background:transparent;border-color:var(--border)">
+              <div class="sport-big-stat__label">THE PLAYERS 2026 — TOTAL PURSE</div>
+              <div class="sport-big-stat__num" style="font-size:44px">$25M</div>
+              <div class="sport-big-stat__sub">Richest single event on the PGA TOUR</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- F1 ──────────────────────────────────────────────── -->
+        <div class="sport-panel" id="panel-f1" data-sport="F1" role="tabpanel">
+          <div class="sport-panel__content">
+            <h3 class="sport-panel__title">Formula 1 Prize Money</h3>
+            <p class="sport-panel__body">
+              Formula 1 runs one of the most complex prize fund structures in all of sports. FOM (Formula One Management) distributes over <strong>$1.1 billion</strong> annually to constructors based on their standings, historical bonuses, and performance. Individual drivers don't receive FOM funds directly — that money goes to the constructors.
+            </p>
+            <p class="sport-panel__body">
+              The World Constructors' Championship winner earns approximately <strong>$147 million</strong>. Even the last-placed constructor takes home roughly <strong>$35 million</strong> — one reason teams remain financially viable despite spending hundreds of millions on operations and development.
+            </p>
+            <ul class="sport-stat-list">
+              <li class="sport-stat-item"><span class="stat-label">Total 2026 Prize Fund</span>    <span class="stat-value">~$1,100,000,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">WCC 1st Place</span>            <span class="stat-value">~$147,000,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">WCC 2nd Place</span>            <span class="stat-value">~$132,000,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">WCC 3rd Place</span>            <span class="stat-value">~$112,000,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">WCC 10th (Last)</span>          <span class="stat-value">~$35,000,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Column 1 Bonuses (est.)</span>  <span class="stat-value">~$200,000,000</span></li>
+            </ul>
+          </div>
+          <div class="sport-panel__sidebar">
+            <div class="sport-big-stat">
+              <div class="sport-big-stat__label">F1 2026 — TOTAL PRIZE FUND</div>
+              <div class="sport-big-stat__num" style="font-size:44px">$1.1B</div>
+              <div class="sport-big-stat__sub">Distributed to all 10 constructors</div>
+            </div>
+            <div class="sport-big-stat" style="background:transparent;border-color:var(--border)">
+              <div class="sport-big-stat__label">WCC WINNER PAYOUT</div>
+              <div class="sport-big-stat__num" style="font-size:40px">~$147M</div>
+              <div class="sport-big-stat__sub">Approx. — World Champions Constructor</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tennis ──────────────────────────────────────────── -->
+        <div class="sport-panel" id="panel-tennis" data-sport="Tennis" role="tabpanel">
+          <div class="sport-panel__content">
+            <h3 class="sport-panel__title">Tennis Prize Money</h3>
+            <p class="sport-panel__body">
+              Professional tennis distributes prize money across a tiered structure spanning ATP, WTA, and Grand Slam events. The four Slams carry the largest purses, with the US Open leading at over <strong>$65 million total</strong> in 2025. Prize money parity between men's and women's singles has been achieved at all four Grand Slams.
+            </p>
+            <p class="sport-panel__body">
+              The ATP Finals (season-ending championship) carries a <strong>$9.75 million</strong> prize pool. Wimbledon's historic total purse reached <strong>£50 million</strong> in 2025, with the singles champion earning £3.18 million. Prize money scales steeply by round — first-round exits earn a fraction of what semifinals pay.
+            </p>
+            <ul class="sport-stat-list">
+              <li class="sport-stat-item"><span class="stat-label">US Open 2025 Total</span>       <span class="stat-value">$65,000,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">US Open Singles Winner</span>   <span class="stat-value">$3,600,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Wimbledon 2025 Total</span>     <span class="stat-value">£50,000,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Wimbledon Singles Winner</span> <span class="stat-value">£3,180,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">ATP Finals 2025 Total</span>    <span class="stat-value">$9,750,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">ATP Finals Winner</span>        <span class="stat-value">$4,730,000</span></li>
+            </ul>
+          </div>
+          <div class="sport-panel__sidebar">
+            <div class="sport-big-stat">
+              <div class="sport-big-stat__label">WIMBLEDON 2025 — SINGLES WINNER</div>
+              <div class="sport-big-stat__num">£3.18M</div>
+              <div class="sport-big-stat__sub">From £50M total purse</div>
+            </div>
+            <div class="sport-big-stat" style="background:transparent;border-color:var(--border)">
+              <div class="sport-big-stat__label">US OPEN 2025 — TOTAL PURSE</div>
+              <div class="sport-big-stat__num" style="font-size:44px">$65M</div>
+              <div class="sport-big-stat__sub">Largest Grand Slam prize pool</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UFC ─────────────────────────────────────────────── -->
+        <div class="sport-panel" id="panel-ufc" data-sport="UFC" role="tabpanel">
+          <div class="sport-panel__content">
+            <h3 class="sport-panel__title">UFC Fighter Pay</h3>
+            <p class="sport-panel__body">
+              UFC fighter compensation is notoriously opaque. State athletic commissions require disclosed purse amounts, but these figures often exclude undisclosed bonuses, PPV points, and performance incentives that top fighters receive. The disclosed purse is frequently only a fraction of total fight-night earnings.
+            </p>
+            <p class="sport-panel__body">
+              The UFC issues four standard performance bonuses per event — Fight of the Night and two Performance of the Night awards — each worth <strong>$50,000</strong>. Championship-level fighters can earn undisclosed bonuses bringing total compensation well into the millions, but those figures aren't publicly confirmed.
+            </p>
+            <ul class="sport-stat-list">
+              <li class="sport-stat-item"><span class="stat-label">UFC 315 Disclosed Total</span>   <span class="stat-value">$3,400,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Main Event Winner (Disc.)</span>  <span class="stat-value">$1,050,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Main Event Loser (Disc.)</span>   <span class="stat-value">$525,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Co-Main Winner (Disc.)</span>     <span class="stat-value">$300,000</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Performance of the Night</span>   <span class="stat-value">$50,000 each</span></li>
+              <li class="sport-stat-item"><span class="stat-label">Fight of the Night</span>         <span class="stat-value">$50,000 each</span></li>
+            </ul>
+          </div>
+          <div class="sport-panel__sidebar">
+            <div class="sport-big-stat">
+              <div class="sport-big-stat__label">UFC 315 — MAIN EVENT WINNER (DISC.)</div>
+              <div class="sport-big-stat__num">$1.05M</div>
+              <div class="sport-big-stat__sub">Disclosed purse · Montreal, May 2025</div>
+            </div>
+            <div class="sport-big-stat" style="background:transparent;border-color:var(--border)">
+              <div class="sport-big-stat__label">NOTE: UNDISCLOSED BONUSES</div>
+              <div class="sport-big-stat__num" style="font-size:36px;color:var(--text-dim)">???</div>
+              <div class="sport-big-stat__sub">PPV points and undisclosed bonuses not reflected in official totals</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         AD SLOT + AFFILIATE UNIT
+         ═══════════════════════════════════════════════════════ -->
+    <div class="container" style="padding-bottom:56px">
+      <div style="display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap">
+        <div style="flex:1;min-width:300px">
+          <div class="affiliate-slot">
+            <div class="affiliate-slot__icon">💰</div>
+            <div>
+              <div class="affiliate-slot__tag">SPONSORED PARTNER</div>
+              <div class="affiliate-slot__title">Finance &amp; Sports Partner Slot</div>
+              <div class="affiliate-slot__desc">Premium placement for sports betting, financial services, trading platforms, or sports gear. Engaged male 25–45 audience — top advertiser segment. Contact: <strong>ads@prizewire.com</strong></div>
+            </div>
+          </div>
+        </div>
+        <div class="ad-slot ad-slot--rectangle" aria-label="Advertisement">
+          <span class="ad-slot__label">ADVERTISEMENT</span>
+          <span class="ad-slot__size">300 × 250</span>
+          <!-- INSERT AD CODE HERE -->
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         PAYOUT BREAKDOWNS — ARTICLES
+         ═══════════════════════════════════════════════════════ -->
+    <section class="section section--sm" style="padding-top:0" aria-labelledby="articles-title">
+      <div class="container">
+
+        <div class="section-header">
+          <div>
+            <h2 class="section-title" id="articles-title">Payout Breakdowns</h2>
+            <p class="section-subtitle">In-depth analysis of prize money structures</p>
+          </div>
+          <a href="/articles/" class="section-link">All Articles →</a>
+        </div>
+
+        <!-- Populated by app.js; static fallback for SEO: -->
+        <div class="articles-grid" id="articles-grid">
+
+          <a href="/articles/pga-championship-2026-payout" class="article-card">
+            <div class="article-meta">
+              <span class="sport-badge" style="background:#006837">PGA</span>
+              <span class="article-date">May 2026</span>
+            </div>
+            <div class="article-title">PGA Championship 2026: Full Payout Breakdown</div>
+            <div class="article-excerpt">The PGA Championship at Quail Hollow features a $21 million purse. Here's exactly how every dollar distributes from first place down to the last man to make the cut.</div>
+            <div class="article-footer">
+              <span>4 min read</span>
+              <span class="article-read-more">Read More →</span>
+            </div>
+          </a>
+
+          <a href="/articles/f1-2026-prize-fund-breakdown" class="article-card">
+            <div class="article-meta">
+              <span class="sport-badge" style="background:#E8002D">F1</span>
+              <span class="article-date">Mar 2026</span>
+            </div>
+            <div class="article-title">F1 2026 Constructor Prize Fund: The Full $1.1B Breakdown</div>
+            <div class="article-excerpt">Formula 1's total prize fund exceeds $1.1 billion. Here's how FOM distributes that money across all ten constructors in the 2026 season.</div>
+            <div class="article-footer">
+              <span>5 min read</span>
+              <span class="article-read-more">Read More →</span>
+            </div>
+          </a>
+
+          <a href="/articles/super-bowl-lix-payout" class="article-card">
+            <div class="article-meta">
+              <span class="sport-badge" style="background:#003F8A">NFL</span>
+              <span class="article-date">Feb 2025</span>
+            </div>
+            <div class="article-title">Super Bowl LIX: What Each Player Actually Earned</div>
+            <div class="article-excerpt">Beyond the $157K winner's share, the Super Bowl bonus structure is more complex than most fans realize. Full round-by-round breakdown inside.</div>
+            <div class="article-footer">
+              <span>4 min read</span>
+              <span class="article-read-more">Read More →</span>
+            </div>
+          </a>
+
+          <a href="/articles/nba-finals-2026-payout" class="article-card">
+            <div class="article-meta">
+              <span class="sport-badge" style="background:#C9082A">NBA</span>
+              <span class="article-date">June 2026</span>
+            </div>
+            <div class="article-title">NBA Finals 2026 Prize Money: Champion vs. Runner-Up</div>
+            <div class="article-excerpt">From champion shares to first-round exits — every playoff bonus in the $24.6M NBA prize pool, fully explained with historical context.</div>
+            <div class="article-footer">
+              <span>3 min read</span>
+              <span class="article-read-more">Read More →</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         ABOUT / TRUST SECTION
+         ═══════════════════════════════════════════════════════ -->
+    <section class="about-section section" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about-grid">
+
+          <div class="about-text">
+            <h2 id="about-title">Why Trust <span style="color:var(--gold)">PrizeWire</span>?</h2>
+            <p>
+              PrizeWire was built for sports fans who want the real financial picture behind the games they watch. We don't editorialize, take sides, or speculate. We publish verified payout figures from official sources: governing body announcements, state athletic commission disclosures, and league official communications.
+            </p>
+            <p>
+              We have no financial relationship with any sports league, team, athlete, or betting company that could influence our data. Prize money figures are independently verified before publication. When figures are estimates — such as undisclosed UFC bonuses or approximate F1 distributions — we say so explicitly with clear labeling.
+            </p>
+            <p>
+              Our methodology is transparent: we cite sources on every article, document our data assumptions, and publish corrections publicly when they occur. If you spot an error, email us and we'll correct it with a note in the record.
+            </p>
+          </div>
+
+          <div class="trust-pillars">
+            <div class="trust-pillar">
+              <div class="trust-pillar__icon">📊</div>
+              <div class="trust-pillar__title">Source-Verified</div>
+              <div class="trust-pillar__text">All figures sourced from official governing body announcements and commission disclosures — not estimates or rumors.</div>
+            </div>
+            <div class="trust-pillar">
+              <div class="trust-pillar__icon">🏆</div>
+              <div class="trust-pillar__title">Zero Bias</div>
+              <div class="trust-pillar__text">No league partnerships, sponsor conflicts, or advertiser influence over the data we publish.</div>
+            </div>
+            <div class="trust-pillar">
+              <div class="trust-pillar__icon">⚡</div>
+              <div class="trust-pillar__title">Published Fast</div>
+              <div class="trust-pillar__text">Payout data goes live within hours of official announcement — not days or weeks later.</div>
+            </div>
+            <div class="trust-pillar">
+              <div class="trust-pillar__icon">✅</div>
+              <div class="trust-pillar__title">Public Corrections</div>
+              <div class="trust-pillar__text">Errors corrected openly, with notes. We stand behind every number we publish.</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         NEWSLETTER
+         ═══════════════════════════════════════════════════════ -->
+    <section class="section section--sm" style="padding-bottom:72px" aria-labelledby="newsletter-title">
+      <div class="container">
+        <div class="newsletter-section">
+          <h2 class="newsletter-title" id="newsletter-title">
+            Payout Alerts. <em style="font-style:normal;color:var(--gold)">Zero Noise.</em>
+          </h2>
+          <p class="newsletter-desc">
+            Get notified the moment prize money is confirmed. NFL playoffs, golf majors, F1 prize funds — straight to your inbox.
+          </p>
+          <div class="newsletter-form" role="form" aria-label="Newsletter signup">
+            <label for="newsletter-email" class="sr-only" style="position:absolute;opacity:0;pointer-events:none">Email address</label>
+            <input type="email" id="newsletter-email" class="newsletter-input" placeholder="your@email.com" autocomplete="email" aria-label="Your email address">
+            <button type="button" class="btn-gold">SUBSCRIBE</button>
+          </div>
+          <p class="newsletter-note">No spam. Unsubscribe anytime. No league affiliations.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div class="footer-brand__logo">PRIZE<span>WIRE</span></div>
+          <p class="footer-brand__desc">
+            The definitive source for sports prize money, player salaries, and tournament payout data. Independent. Verified. Zero bias.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col__title">Sports</div>
+          <ul class="footer-col__links">
+            <li><a href="/nfl/">NFL Payouts</a></li>
+            <li><a href="/nba/">NBA Payouts</a></li>
+            <li><a href="/pga/">PGA TOUR</a></li>
+            <li><a href="/f1/">Formula 1</a></li>
+            <li><a href="/tennis/">Tennis</a></li>
+            <li><a href="/ufc/">UFC</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col__title">Database</div>
+          <ul class="footer-col__links">
+            <li><a href="/leaderboard/">Prize Leaderboard</a></li>
+            <li><a href="/articles/">All Breakdowns</a></li>
+            <li><a href="/salaries/">Player Salaries</a></li>
+            <li><a href="/records/">All-Time Records</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col__title">PrizeWire</div>
+          <ul class="footer-col__links">
+            <li><a href="/about/">About</a></li>
+            <li><a href="/methodology/">Methodology</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/advertise/">Advertise</a></li>
+            <li><a href="/privacy/">Privacy Policy</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">© 2026 PrizeWire. All rights reserved.</div>
+        <div class="footer-disclaimer">
+          Prize money figures are sourced from official governing body announcements. Some figures may be estimates where exact amounts are not publicly disclosed. PrizeWire is not affiliated with any sports league or governing body.
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="/js/app.js" defer></script>
+</body>
+</html>
