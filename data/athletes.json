@@ -1,0 +1,217 @@
+{
+  "athletes": [
+
+    {
+      "id": "max-verstappen",
+      "name": "Max Verstappen",
+      "sport": "F1",
+      "sportColor": "#E8002D",
+      "team": "Red Bull Racing",
+      "nationality": "🇳🇱 Netherlands",
+      "note": "F1 prize money goes to constructors. Driver earnings are salary + bonuses from team.",
+      "payouts": [
+        { "event": "F1 2025 World Championship", "year": 2025, "result": "World Champion",        "payout": "~$70,000,000", "type": "Salary + Bonuses (est.)", "slug": "f1-2026-prize-fund-breakdown" },
+        { "event": "F1 2024 World Championship", "year": 2024, "result": "World Champion",        "payout": "~$65,000,000", "type": "Salary + Bonuses (est.)", "slug": "" },
+        { "event": "F1 2023 World Championship", "year": 2023, "result": "World Champion",        "payout": "~$60,000,000", "type": "Salary + Bonuses (est.)", "slug": "" },
+        { "event": "F1 2022 World Championship", "year": 2022, "result": "World Champion",        "payout": "~$50,000,000", "type": "Salary + Bonuses (est.)", "slug": "" }
+      ]
+    },
+
+    {
+      "id": "lewis-hamilton",
+      "name": "Lewis Hamilton",
+      "sport": "F1",
+      "sportColor": "#E8002D",
+      "team": "Ferrari",
+      "nationality": "🇬🇧 United Kingdom",
+      "note": "F1 prize money goes to constructors. Driver earnings are salary + bonuses from team.",
+      "payouts": [
+        { "event": "F1 2025 Season",             "year": 2025, "result": "Ferrari debut",          "payout": "~$50,000,000", "type": "Salary (est.)", "slug": "f1-2026-prize-fund-breakdown" },
+        { "event": "F1 2024 Season",             "year": 2024, "result": "3rd (Constructors)",     "payout": "~$55,000,000", "type": "Salary + Bonuses (est.)", "slug": "" },
+        { "event": "F1 2021 World Championship", "year": 2021, "result": "Runner-up",              "payout": "~$55,000,000", "type": "Salary + Bonuses (est.)", "slug": "" }
+      ]
+    },
+
+    {
+      "id": "scottie-scheffler",
+      "name": "Scottie Scheffler",
+      "sport": "PGA",
+      "sportColor": "#006837",
+      "team": "United States",
+      "nationality": "🇺🇸 United States",
+      "note": "PGA Tour prize money is paid directly to the player.",
+      "payouts": [
+        { "event": "PGA Championship 2026",      "year": 2026, "result": "TBD",                    "payout": "TBD",          "type": "Tournament Purse", "slug": "pga-championship-2026-payout" },
+        { "event": "The Players Championship 2026","year": 2026,"result": "Winner",                 "payout": "$4,500,000",   "type": "Tournament Purse", "slug": "the-players-2026-payout" },
+        { "event": "Masters 2026",               "year": 2026, "result": "Winner",                 "payout": "$3,600,000",   "type": "Tournament Purse", "slug": "" },
+        { "event": "US Open 2024",               "year": 2024, "result": "Winner",                 "payout": "$3,600,000",   "type": "Tournament Purse", "slug": "" },
+        { "event": "Masters 2024",               "year": 2024, "result": "Winner",                 "payout": "$3,240,000",   "type": "Tournament Purse", "slug": "" }
+      ]
+    },
+
+    {
+      "id": "rory-mcilroy",
+      "name": "Rory McIlroy",
+      "sport": "PGA",
+      "sportColor": "#006837",
+      "team": "Northern Ireland",
+      "nationality": "🇬🇧 Northern Ireland",
+      "note": "PGA Tour prize money is paid directly to the player.",
+      "payouts": [
+        { "event": "The Players Championship 2025","year": 2025,"result": "Winner",                "payout": "$4,500,000",   "type": "Tournament Purse", "slug": "" },
+        { "event": "US Open 2025",               "year": 2025, "result": "Winner",                 "payout": "$3,870,000",   "type": "Tournament Purse", "slug": "us-open-golf-2025-payout" },
+        { "event": "Masters 2025",               "year": 2025, "result": "Winner (Career Slam)",   "payout": "$3,600,000",   "type": "Tournament Purse", "slug": "" },
+        { "event": "PGA Championship 2012",      "year": 2012, "result": "Winner",                 "payout": "$1,445,000",   "type": "Tournament Purse", "slug": "" }
+      ]
+    },
+
+    {
+      "id": "carlos-alcaraz",
+      "name": "Carlos Alcaraz",
+      "sport": "Tennis",
+      "sportColor": "#4A7C59",
+      "team": "Spain",
+      "nationality": "🇪🇸 Spain",
+      "note": "ATP prize money paid directly to player before agent/coach fees.",
+      "payouts": [
+        { "event": "Wimbledon 2025",             "year": 2025, "result": "Winner",                 "payout": "£3,180,000",   "type": "Singles Prize Money", "slug": "wimbledon-2025-payout" },
+        { "event": "French Open 2025",           "year": 2025, "result": "Winner",                 "payout": "€2,400,000",   "type": "Singles Prize Money", "slug": "" },
+        { "event": "Wimbledon 2024",             "year": 2024, "result": "Winner",                 "payout": "£2,700,000",   "type": "Singles Prize Money", "slug": "" },
+        { "event": "US Open 2022",               "year": 2022, "result": "Winner",                 "payout": "$2,600,000",   "type": "Singles Prize Money", "slug": "" }
+      ]
+    },
+
+    {
+      "id": "novak-djokovic",
+      "name": "Novak Djokovic",
+      "sport": "Tennis",
+      "sportColor": "#4A7C59",
+      "team": "Serbia",
+      "nationality": "🇷🇸 Serbia",
+      "note": "ATP prize money paid directly to player. Career prize money exceeds $180M.",
+      "payouts": [
+        { "event": "ATP Finals 2025",            "year": 2025, "result": "Runner-up",              "payout": "$1,575,000",   "type": "Singles Prize Money", "slug": "atp-finals-2025-payout" },
+        { "event": "Wimbledon 2023",             "year": 2023, "result": "Runner-up",              "payout": "£1,250,000",   "type": "Singles Prize Money", "slug": "" },
+        { "event": "US Open 2023",               "year": 2023, "result": "Winner",                 "payout": "$3,000,000",   "type": "Singles Prize Money", "slug": "" }
+      ]
+    },
+
+    {
+      "id": "iga-swiatek",
+      "name": "Iga Świątek",
+      "sport": "Tennis",
+      "sportColor": "#4A7C59",
+      "team": "Poland",
+      "nationality": "🇵🇱 Poland",
+      "note": "WTA prize money. Grand Slam prize money equal to men's singles.",
+      "payouts": [
+        { "event": "US Open 2025",               "year": 2025, "result": "Winner",                 "payout": "$3,600,000",   "type": "Singles Prize Money", "slug": "us-open-tennis-2025-payout" },
+        { "event": "French Open 2025",           "year": 2025, "result": "Winner",                 "payout": "€2,400,000",   "type": "Singles Prize Money", "slug": "" },
+        { "event": "French Open 2024",           "year": 2024, "result": "Winner",                 "payout": "€2,300,000",   "type": "Singles Prize Money", "slug": "" }
+      ]
+    },
+
+    {
+      "id": "patrick-mahomes",
+      "name": "Patrick Mahomes",
+      "sport": "NFL",
+      "sportColor": "#003F8A",
+      "team": "Kansas City Chiefs",
+      "nationality": "🇺🇸 United States",
+      "note": "NFL playoff bonuses are on top of base salary. Mahomes signed a 10-year, $450M extension in 2020.",
+      "payouts": [
+        { "event": "Super Bowl LIX",             "year": 2025, "result": "Participant (loss)",      "payout": "$82,000",      "type": "Playoff Bonus", "slug": "super-bowl-lix-payout" },
+        { "event": "Super Bowl LVIII",           "year": 2024, "result": "Winner",                  "payout": "$157,000",     "type": "Playoff Bonus", "slug": "" },
+        { "event": "Super Bowl LVII",            "year": 2023, "result": "Winner",                  "payout": "$150,000",     "type": "Playoff Bonus", "slug": "" },
+        { "event": "2025 Season Base Salary",    "year": 2025, "result": "—",                       "payout": "$51,000,000",  "type": "Base Salary",   "slug": "" }
+      ]
+    },
+
+    {
+      "id": "lebron-james",
+      "name": "LeBron James",
+      "sport": "NBA",
+      "sportColor": "#C9082A",
+      "team": "Los Angeles Lakers",
+      "nationality": "🇺🇸 United States",
+      "note": "NBA playoff bonuses are separate from base salary. LeBron is the highest-paid player in league history.",
+      "payouts": [
+        { "event": "NBA 2025-26 Base Salary",    "year": 2026, "result": "—",                       "payout": "$51,400,000",  "type": "Base Salary",   "slug": "" },
+        { "event": "NBA Playoffs 2025",          "year": 2025, "result": "Second Round Exit",        "payout": "$87,000",      "type": "Playoff Bonus", "slug": "nba-finals-2026-payout" },
+        { "event": "NBA Finals 2023",            "year": 2023, "result": "Runner-up",                "payout": "$272,000",     "type": "Playoff Bonus", "slug": "" }
+      ]
+    },
+
+    {
+      "id": "stephen-curry",
+      "name": "Stephen Curry",
+      "sport": "NBA",
+      "sportColor": "#C9082A",
+      "team": "Golden State Warriors",
+      "nationality": "🇺🇸 United States",
+      "note": "NBA playoff bonuses are separate from base salary.",
+      "payouts": [
+        { "event": "NBA 2025-26 Base Salary",    "year": 2026, "result": "—",                       "payout": "$55,760,000",  "type": "Base Salary",   "slug": "" },
+        { "event": "NBA Finals 2022",            "year": 2022, "result": "Champion + Finals MVP",    "payout": "$300,000",     "type": "Playoff Bonus", "slug": "" }
+      ]
+    },
+
+    {
+      "id": "islam-makhachev",
+      "name": "Islam Makhachev",
+      "sport": "UFC",
+      "sportColor": "#D4002A",
+      "team": "Russia",
+      "nationality": "🇷🇺 Russia",
+      "note": "UFC disclosed purses only. Actual earnings include undisclosed bonuses and PPV points.",
+      "payouts": [
+        { "event": "UFC 315",                    "year": 2025, "result": "Winner (Main Event)",      "payout": "$1,050,000",   "type": "Disclosed Purse", "slug": "ufc-315-payout" },
+        { "event": "UFC 302",                    "year": 2024, "result": "Winner",                   "payout": "$780,000",     "type": "Disclosed Purse", "slug": "" }
+      ]
+    },
+
+    {
+      "id": "jon-jones",
+      "name": "Jon Jones",
+      "sport": "UFC",
+      "sportColor": "#D4002A",
+      "team": "United States",
+      "nationality": "🇺🇸 United States",
+      "note": "UFC disclosed purses only. Jones is widely considered the highest-paid heavyweight in UFC history.",
+      "payouts": [
+        { "event": "UFC 309",                    "year": 2024, "result": "Winner (Heavyweight Title)","payout": "$2,100,000",  "type": "Disclosed Purse", "slug": "" },
+        { "event": "UFC 285",                    "year": 2023, "result": "Winner (Heavyweight Title)","payout": "$1,500,000",  "type": "Disclosed Purse", "slug": "" }
+      ]
+    },
+
+    {
+      "id": "lando-norris",
+      "name": "Lando Norris",
+      "sport": "F1",
+      "sportColor": "#E8002D",
+      "team": "McLaren",
+      "nationality": "🇬🇧 United Kingdom",
+      "note": "F1 prize money goes to constructors. Driver earnings are salary + bonuses from team.",
+      "payouts": [
+        { "event": "F1 2025 Season",             "year": 2025, "result": "Runner-up (est.)",         "payout": "~$20,000,000", "type": "Salary + Bonuses (est.)", "slug": "f1-2026-prize-fund-breakdown" },
+        { "event": "F1 2024 Season",             "year": 2024, "result": "Runner-up",                "payout": "~$15,000,000", "type": "Salary + Bonuses (est.)", "slug": "" }
+      ]
+    },
+
+    {
+      "id": "bryson-dechambeau",
+      "name": "Bryson DeChambeau",
+      "sport": "PGA",
+      "sportColor": "#006837",
+      "team": "United States",
+      "nationality": "🇺🇸 United States",
+      "note": "PGA Tour prize money paid directly to player. Also receives LIV Golf guaranteed contracts.",
+      "payouts": [
+        { "event": "US Open 2025",               "year": 2025, "result": "Runner-up",                "payout": "$2,300,000",   "type": "Tournament Purse", "slug": "us-open-golf-2025-payout" },
+        { "event": "US Open 2024",               "year": 2024, "result": "Winner",                   "payout": "$3,600,000",   "type": "Tournament Purse", "slug": "" },
+        { "event": "US Open 2020",               "year": 2020, "result": "Winner",                   "payout": "$2,250,000",   "type": "Tournament Purse", "slug": "" }
+      ]
+    }
+
+  ]
+}

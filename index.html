@@ -160,6 +160,30 @@
 
         <div class="header-actions">
           <span id="last-updated" aria-live="polite"></span>
+
+          <!-- Search bar -->
+          <div class="header-search">
+            <div class="header-search__form" role="search">
+              <div class="header-search__icon" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+                  <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.8"/>
+                  <path d="M13 13l4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <input
+                type="search"
+                class="header-search__input"
+                placeholder="Search athlete or event..."
+                aria-label="Search athletes and events"
+                autocomplete="off"
+                spellcheck="false"
+              >
+              <span class="header-search__kbd" aria-hidden="true">/</span>
+            </div>
+            <!-- Dropdown populated by app.js -->
+            <div class="search-dropdown" role="listbox" aria-label="Search results"></div>
+          </div>
+
           <button class="btn-outline" aria-label="Subscribe to newsletter">NEWSLETTER</button>
         </div>
 

@@ -218,7 +218,138 @@
     });
   }
 
-  // ── 9. NEWSLETTER BUTTON (placeholder) ───────────────────
+  // ── 9. HEADER SEARCH DROPDOWN ────────────────────────────
+  async function initHeaderSearch() {
+    const form     = document.querySelector('.header-search__form');
+    const input    = document.querySelector('.header-search__input');
+    const dropdown = document.querySelector('.search-dropdown');
+    if (!form || !input || !dropdown) return;
+
+    const SPORT_COLORS = {
+      NFL:'#003F8A', NBA:'#C9082A', PGA:'#006837', F1:'#E8002D',
+      Tennis:'#4A7C59', UFC:'#D4002A', Boxing:'#7B2FBE', MLB:'#002D72', NHL:'#000099'
+    };
+
+    // Load athletes
+    let athletes = [];
+    try {
+      const res = await fetch('/data/athletes.json');
+      const d   = await res.json();
+      athletes  = d.athletes || [];
+    } catch(e) {}
+
+    function sportColor(sport) {
+      return SPORT_COLORS[sport] || '#556080';
+    }
+
+    function showDropdown(query) {
+      const q = query.trim().toLowerCase();
+      dropdown.classList.add('visible');
+
+      if (!q || q.length < 2) {
+        dropdown.innerHTML = `<div class="search-dropdown__empty">Type an athlete name or sport...</div>`;
+        return;
+      }
+
+      const matchAthletes = athletes.filter(a =>
+        a.name.toLowerCase().includes(q) ||
+        (a.team || '').toLowerCase().includes(q) ||
+        a.sport.toLowerCase().includes(q)
+      ).slice(0, 4);
+
+      const matchEvents = (data?.featured || []).filter(e =>
+        e.event.toLowerCase().includes(q) ||
+        e.sport.toLowerCase().includes(q)
+      ).slice(0, 3);
+
+      const total = matchAthletes.length + matchEvents.length;
+
+      if (total === 0) {
+        dropdown.innerHTML = `<div class="search-dropdown__empty">No results for "<strong style="color:var(--text)">${query}</strong>"</div>
+          <a href="/search?q=${encodeURIComponent(query)}" class="search-dropdown__footer">Search all data →</a>`;
+        return;
+      }
+
+      let html = '';
+
+      if (matchAthletes.length) {
+        html += `<div class="search-dropdown__section-label">Athletes</div>`;
+        matchAthletes.forEach(a => {
+          const latest = a.payouts?.[0];
+          html += `
+            <a href="/search?q=${encodeURIComponent(a.name)}" class="search-dropdown__item">
+              <span class="sport-badge" style="background:${sportColor(a.sport)};font-size:9px;padding:2px 6px">${a.sport}</span>
+              <div class="search-dropdown__item-info">
+                <div class="search-dropdown__item-name">${a.name}</div>
+                <div class="search-dropdown__item-sub">${a.team || a.nationality || ''}</div>
+              </div>
+              ${latest ? `<div class="search-dropdown__item-value">${latest.payout}</div>` : ''}
+            </a>`;
+        });
+      }
+
+      if (matchEvents.length) {
+        html += `<div class="search-dropdown__section-label">Events</div>`;
+        matchEvents.forEach(e => {
+          html += `
+            <a href="/articles/${e.slug}" class="search-dropdown__item">
+              <span class="sport-badge" style="background:${e.sportColor || sportColor(e.sport)};font-size:9px;padding:2px 6px">${e.sport}</span>
+              <div class="search-dropdown__item-info">
+                <div class="search-dropdown__item-name">${e.event}</div>
+                <div class="search-dropdown__item-sub">${e.date}</div>
+              </div>
+              <div class="search-dropdown__item-value">${e.totalPurse}</div>
+            </a>`;
+        });
+      }
+
+      html += `<a href="/search?q=${encodeURIComponent(query)}" class="search-dropdown__footer">
+        <span>See all results for "${query}"</span>
+        <span>→</span>
+      </a>`;
+
+      dropdown.innerHTML = html;
+    }
+
+    function hideDropdown() {
+      dropdown.classList.remove('visible');
+    }
+
+    // Debounced input handler
+    let timer;
+    input.addEventListener('input', () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => showDropdown(input.value), 220);
+    });
+
+    input.addEventListener('focus', () => {
+      if (input.value.length >= 2) showDropdown(input.value);
+    });
+
+    // Navigate on Enter
+    input.addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        const q = input.value.trim();
+        if (q) window.location.href = `/search?q=${encodeURIComponent(q)}`;
+      }
+      if (e.key === 'Escape') hideDropdown();
+    });
+
+    // Close on outside click
+    document.addEventListener('click', e => {
+      if (!form.contains(e.target) && !dropdown.contains(e.target)) hideDropdown();
+    });
+
+    // Keyboard shortcut: / to focus search
+    document.addEventListener('keydown', e => {
+      if (e.key === '/' && document.activeElement.tagName !== 'INPUT') {
+        e.preventDefault();
+        input.focus();
+      }
+    });
+  }
+
+  // ── 10. NEWSLETTER BUTTON (placeholder) ──────────────────
   function initNewsletter() {
     const btn   = document.querySelector('.btn-gold');
     const input = document.querySelector('.newsletter-input');
@@ -248,6 +379,7 @@
   renderMeta();
   initSportTabs();
   initSportNavFilter();
+  initHeaderSearch();
   initNewsletter();
 
 })();
