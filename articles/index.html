@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="google030d394dae3fee69">
+  <title>All Sports Payout Breakdowns — PrizeWire</title>
+  <meta name="description" content="Every sports prize money breakdown in one place — PGA Tour, NFL, NBA, F1, Tennis, UFC, Football. Real data, fully sourced, updated as events happen.">
+  <meta name="keywords" content="sports prize money breakdowns, golf payout, NFL playoff money, NBA prize pool, F1 constructor prize, tennis prize money, UFC fighter pay">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://prizewire.vercel.app/articles/">
+  <meta property="og:title" content="All Sports Payout Breakdowns — PrizeWire">
+  <meta property="og:description" content="Every sports prize money breakdown — PGA, NFL, NBA, F1, Tennis, UFC, Football. Real data, fully sourced.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GQQT6BFW2C"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-GQQT6BFW2C');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .article-card{text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:12px}
+    .article-card.hidden{display:none}
+  </style>
+</head>
+<body>
+  <div class="ticker-bar"><div class="ticker-label">PRIZE WIRE</div><div class="ticker-scroll-wrap"><div class="ticker-track" id="ticker-track"><span class="ticker-item"><span class="ticker-item__event">Loading...</span></span></div></div></div>
+  <header class="site-header"><div class="container"><div class="header-inner">
+    <a href="/" class="site-logo"><div class="logo-mark"><svg viewBox="0 0 16 16" fill="none"><path d="M8 1.5L2.5 14h3.2l.9-2.4h2.8l.9 2.4H13.5L8 1.5zm0 4.5l1.1 3.5H6.9L8 6z" fill="#000"/></svg></div><span class="logo-text">PRIZE<span>WIRE</span></span></a>
+    <nav class="sport-nav">
+        <a href="/" class="sport-nav-item">ALL</a>
+        <a href="/nfl/" class="sport-nav-item">NFL</a>
+        <a href="/nba/" class="sport-nav-item">NBA</a>
+        <a href="/pga/" class="sport-nav-item">PGA TOUR</a>
+        <a href="/f1/" class="sport-nav-item">F1</a>
+        <a href="/tennis/" class="sport-nav-item">TENNIS</a>
+        <a href="/ufc/" class="sport-nav-item">UFC</a>
+        <a href="/football/" class="sport-nav-item">FOOTBALL</a>
+      </nav>
+    <div class="header-actions"><div class="header-search"><div class="header-search__form"><div class="header-search__icon"><svg width="14" height="14" viewBox="0 0 20 20" fill="none"><circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.8"/><path d="M13 13l4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div><input type="search" class="header-search__input" placeholder="Search athlete or event..." autocomplete="off"><span class="header-search__kbd">/</span></div><div class="search-dropdown"></div></div></div>
+  </div></div></header>
+  <main id="main-content">
+
+<section style="padding-block:48px 32px;border-bottom:1px solid var(--border);background:var(--surface)">
+  <div class="container">
+    <div style="font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;color:var(--text-faint);margin-bottom:14px">COMPLETE DATABASE</div>
+    <h1 style="font-family:var(--font-display);font-weight:900;font-size:clamp(40px,5vw,68px);line-height:1;margin-bottom:12px">All Payout<br><em style="font-style:normal;color:var(--gold)">Breakdowns</em></h1>
+    <p style="font-size:15px;color:var(--text-dim);max-width:520px;line-height:1.72">14 articles — every sport, every event, every dollar. Updated when results drop.</p>
+  </div>
+</section>
+
+<div class="container" style="padding-block:20px 0">
+  <div class="ad-slot ad-slot--leaderboard"><span class="ad-slot__label">ADVERTISEMENT</span><span class="ad-slot__size">728 × 90</span></div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:28px;padding-bottom:20px;border-bottom:1px solid var(--border)">
+      <span style="font-family:var(--font-mono);font-size:10px;color:var(--text-faint);margin-right:4px">FILTER:</span>
+      <button onclick="filterArticles('ALL')" data-sport="ALL" class="sport-nav-item" style="flex-shrink:0" id="filter-ALL">ALL</button><button onclick="filterArticles('NFL')" data-sport="NFL" class="sport-nav-item" style="flex-shrink:0" id="filter-NFL">NFL</button><button onclick="filterArticles('NBA')" data-sport="NBA" class="sport-nav-item" style="flex-shrink:0" id="filter-NBA">NBA</button><button onclick="filterArticles('PGA')" data-sport="PGA" class="sport-nav-item" style="flex-shrink:0" id="filter-PGA">PGA</button><button onclick="filterArticles('F1')" data-sport="F1" class="sport-nav-item" style="flex-shrink:0" id="filter-F1">F1</button><button onclick="filterArticles('Tennis')" data-sport="Tennis" class="sport-nav-item" style="flex-shrink:0" id="filter-Tennis">Tennis</button><button onclick="filterArticles('UFC')" data-sport="UFC" class="sport-nav-item" style="flex-shrink:0" id="filter-UFC">UFC</button><button onclick="filterArticles('Football')" data-sport="Football" class="sport-nav-item" style="flex-shrink:0" id="filter-Football">Football</button>
+    </div>
+    <div id="article-count" style="font-family:var(--font-mono);font-size:11px;color:var(--text-faint);margin-bottom:20px">14 breakdowns</div>
+    <div class="articles-grid" id="articles-list">
+      <a href="/articles/pga-championship-2026-payout" class="article-card" style="text-decoration:none;color:inherit">
+  <div class="article-meta"><span class="sport-badge" style="background:#006837">PGA</span><span class="article-date">May 2026</span></div>
+  <div class="article-title">PGA Championship 2026: Aaron Rai Wins $3,690,000 at Aronimink</div>
+  <div class="article-excerpt">Aaron Rai became the first Englishman to win the PGA Championship in the stroke play era, shooting 65 at Aronimink to win from a record $20.5M purse.</div>
+  <div class="article-footer"><span>5 min read</span><span class="article-read-more">Read More →</span></div>
+</a><a href="/articles/champions-league-2025-prize-money" class="article-card" style="text-decoration:none;color:inherit">
+  <div class="article-meta"><span class="sport-badge" style="background:#1a3a6b">Football</span><span class="article-date">Jun 2025</span></div>
+  <div class="article-title">Champions League 2024-25: PSG Earns €144.4 Million — Full Breakdown</div>
+  <div class="article-excerpt">PSG won the UCL final in Munich, topping a record €2.47 billion prize pool. How every euro was distributed across 36 clubs.</div>
+  <div class="article-footer"><span>6 min read</span><span class="article-read-more">Read More →</span></div>
+</a><a href="/articles/ronaldo-salary-2025" class="article-card" style="text-decoration:none;color:inherit">
+  <div class="article-meta"><span class="sport-badge" style="background:#1a3a6b">Football</span><span class="article-date">Jun 2025</span></div>
+  <div class="article-title">Cristiano Ronaldo Salary 2025: ~€200M/Year at Al-Nassr</div>
+  <div class="article-excerpt">Ronaldo signed a new 2-year extension in June 2025. Full breakdown of base salary, bonuses, equity stake, and career earnings history.</div>
+  <div class="article-footer"><span>5 min read</span><span class="article-read-more">Read More →</span></div>
+</a><a href="/articles/messi-inter-miami-salary" class="article-card" style="text-decoration:none;color:inherit">
+  <div class="article-meta"><span class="sport-badge" style="background:#1a3a6b">Football</span><span class="article-date">Mar 2026</span></div>
+  <div class="article-title">Lionel Messi Salary at Inter Miami: $70-80M Total Package Confirmed</div>
+  <div class="article-excerpt">MLS Cup champion. Club owner Jorge Mas confirmed Messi earns $70-80M/year across all streams. Full breakdown.</div>
+  <div class="article-footer"><span>5 min read</span><span class="article-read-more">Read More →</span></div>
+</a><a href="/articles/wimbledon-2025-payout" class="article-card" style="text-decoration:none;color:inherit">
+  <div class="article-meta"><span class="sport-badge" style="background:#4A7C59">Tennis</span><span class="article-date">Jul 2025</span></div>
+  <div class="article-title">Wimbledon 2025: Jannik Sinner Wins £3,000,000 — Full Prize Breakdown</div>
+  <div class="article-excerpt">Sinner defeated Alcaraz in the final to claim his first Wimbledon crown and £3M from a record £53.5M total pool.</div>
+  <div class="article-footer"><span>4 min read</span><span class="article-read-more">Read More →</span></div>
+</a><a href="/articles/us-open-tennis-2025-payout" class="article-card" style="text-decoration:none;color:inherit">
+  <div class="article-meta"><span class="sport-badge" style="background:#4A7C59">Tennis</span><span class="article-date">Sep 2025</span></div>
+  <div class="article-title">US Open Tennis 2025: $65M Total — The Richest Grand Slam Ever</div>
+  <div class="article-excerpt">Flushing Meadows raised its prize pool to $65M. Singles champions each earned $3.6M. Full round-by-round breakdown.</div>
+  <div class="article-footer"><span>4 min read</span><span class="article-read-more">Read More →</span></div>
+</a><a href="/articles/atp-finals-2025-payout" class="article-card" style="text-decoration:none;color:inherit">
+  <div class="article-meta"><span class="sport-badge" style="background:#4A7C59">Tennis</span><span class="article-date">Nov 2025</span></div>
+  <div class="article-title">ATP Finals 2025: $9.75M Prize Pool — Winner Earns $4,730,000</div>
+  <div class="article-excerpt">Only the top 8 qualify — the payouts reflect it. Complete prize money breakdown by stage including group phase bonuses.</div>
+  <div class="article-footer"><span>3 min read</span><span class="article-read-more">Read More →</span></div>
+</a><a href="/articles/f1-2026-prize-fund-breakdown" class="article-card" style="text-decoration:none;color:inherit">
+  <div class="article-meta"><span class="sport-badge" style="background:#E8002D">F1</span><span class="article-date">Mar 2026</span></div>
+  <div class="article-title">F1 2026 Prize Fund: The Complete $1.1 Billion Constructor Breakdown</div>
+  <div class="article-excerpt">How FOM distributes $1.1B to all 10 constructors. From the WCC winner's ~$147M to last place's ~$35M.</div>
+  <div class="article-footer"><span>5 min read</span><span class="article-read-more">Read More →</span></div>
+</a><a href="/articles/super-bowl-lix-payout" class="article-card" style="text-decoration:none;color:inherit">
+  <div class="article-meta"><span class="sport-badge" style="background:#003F8A">NFL</span><span class="article-date">Feb 2025</span></div>
+  <div class="article-title">Super Bowl LIX: Eagles Win — $157K Per Player Full Breakdown</div>
+  <div class="article-excerpt">Philadelphia defeated Kansas City 40-22. Every player's bonus from Wild Card through the championship, plus what a full run is worth.</div>
+  <div class="article-footer"><span>4 min read</span><span class="article-read-more">Read More →</span></div>
+</a><a href="/articles/nfl-playoff-payout-2026" class="article-card" style="text-decoration:none;color:inherit">
+  <div class="article-meta"><span class="sport-badge" style="background:#003F8A">NFL</span><span class="article-date">Feb 2026</span></div>
+  <div class="article-title">NFL Playoff Prize Money 2025-26: $120M Total Pool — Round by Round</div>
+  <div class="article-excerpt">Complete NFL postseason payout structure. Wild Card ($41K) through Super Bowl ($157K) — all figures confirmed.</div>
+  <div class="article-footer"><span>4 min read</span><span class="article-read-more">Read More →</span></div>
+</a><a href="/articles/nba-finals-2026-payout" class="article-card" style="text-decoration:none;color:inherit">
+  <div class="article-meta"><span class="sport-badge" style="background:#C9082A">NBA</span><span class="article-date">Jun 2026</span></div>
+  <div class="article-title">NBA Finals 2026: Champions Earn $547,000 Per Player — Full Breakdown</div>
+  <div class="article-excerpt">The $24.6M NBA playoff pool explained. Every per-player figure from first-round exits to championship winners.</div>
+  <div class="article-footer"><span>3 min read</span><span class="article-read-more">Read More →</span></div>
+</a><a href="/articles/us-open-golf-2025-payout" class="article-card" style="text-decoration:none;color:inherit">
+  <div class="article-meta"><span class="sport-badge" style="background:#006837">PGA</span><span class="article-date">Jun 2025</span></div>
+  <div class="article-title">US Open Golf 2025: Rory McIlroy Wins $3,870,000 — Full Payout</div>
+  <div class="article-excerpt">McIlroy completed the Career Grand Slam at the US Open. Full payout from the record $21.5M purse.</div>
+  <div class="article-footer"><span>4 min read</span><span class="article-read-more">Read More →</span></div>
+</a><a href="/articles/the-players-2026-payout" class="article-card" style="text-decoration:none;color:inherit">
+  <div class="article-meta"><span class="sport-badge" style="background:#006837">PGA</span><span class="article-date">Mar 2026</span></div>
+  <div class="article-title">The Players Championship 2026: $25M — Largest PGA Tour Purse Ever</div>
+  <div class="article-excerpt">TPC Sawgrass, $25 million, winner takes $4.5M. Why The Players now out-earns every Major in prize money.</div>
+  <div class="article-footer"><span>4 min read</span><span class="article-read-more">Read More →</span></div>
+</a><a href="/articles/ufc-315-payout" class="article-card" style="text-decoration:none;color:inherit">
+  <div class="article-meta"><span class="sport-badge" style="background:#D4002A">UFC</span><span class="article-date">May 2025</span></div>
+  <div class="article-title">UFC 315: Makhachev Earns $1,050,000 Disclosed — Full Card Payouts</div>
+  <div class="article-excerpt">Islam Makhachev defended his title in Montreal. Total disclosed purse $3.4M. Full fighter pay plus undisclosed bonus analysis.</div>
+  <div class="article-footer"><span>4 min read</span><span class="article-read-more">Read More →</span></div>
+</a>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="site-footer"><div class="container">
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-bottom:24px">
+      <div style="font-family:var(--font-display);font-weight:900;font-size:18px">PRIZE<span style="color:var(--gold)">WIRE</span></div>
+      <nav style="display:flex;gap:20px;flex-wrap:wrap">
+        <a href="/" style="font-size:13px;color:var(--text-dim)">Home</a>
+        <a href="/football/" style="font-size:13px;color:var(--text-dim)">Football</a>
+        <a href="/pga/" style="font-size:13px;color:var(--text-dim)">PGA Tour</a>
+        <a href="/privacy/" style="font-size:13px;color:var(--text-dim)">Privacy</a>
+      </nav>
+    </div>
+    <div class="footer-bottom"><div class="footer-copy">© 2026 PrizeWire. All rights reserved.</div><div class="footer-disclaimer">Prize money figures sourced from official announcements. Not affiliated with any sports league or governing body.</div></div>
+  </div></footer>
+  <script src="/js/app.js" defer></script>
+</body></html>
+
+<script>
+  const cards = document.querySelectorAll('.article-card');
+  const countEl = document.getElementById('article-count');
+  function filterArticles(sport) {
+    document.querySelectorAll('[data-sport]').forEach(b => b.removeAttribute('data-active'));
+    document.getElementById('filter-'+sport)?.setAttribute('data-active','true');
+    let visible = 0;
+    cards.forEach(c => {
+      const badge = c.querySelector('.sport-badge');
+      const match = sport === 'ALL' || (badge && badge.textContent.trim() === sport);
+      c.classList.toggle('hidden', !match);
+      if(match) visible++;
+    });
+    countEl.textContent = visible + ' breakdown' + (visible !== 1 ? 's' : '');
+  }
+  filterArticles('ALL');
+</script>
+</main>
+</body></html>

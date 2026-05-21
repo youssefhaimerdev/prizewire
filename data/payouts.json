@@ -1,19 +1,21 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-18",
+    "lastUpdated": "2026-05-20",
     "siteName": "PrizeWire"
   },
   "ticker": [
-    { "label": "PGA Championship 2026", "value": "$21M purse", "change": "LATEST" },
+    { "label": "PGA Championship 2026 — Aaron Rai", "value": "$3,690,000 winner", "change": "LATEST" },
     { "label": "NBA Finals 2026", "value": "$547K/player", "change": "LIVE" },
-    { "label": "F1 Miami GP Winner", "value": "$13.2M", "change": "FINAL" },
-    { "label": "Wimbledon 2025 Champion", "value": "£3,180,000", "change": "FINAL" },
-    { "label": "Super Bowl LIX Winner Share", "value": "$157K/player", "change": "FINAL" },
-    { "label": "US Open Golf 2025", "value": "$21.5M purse", "change": "FINAL" },
-    { "label": "UFC 315 Main Event Winner", "value": "$1,050,000 disclosed", "change": "FINAL" },
-    { "label": "Masters 2026 Winner", "value": "$3,600,000", "change": "FINAL" },
-    { "label": "ATP Finals 2025", "value": "$9.75M total", "change": "FINAL" },
-    { "label": "The Players Championship 2026", "value": "$25M purse", "change": "FINAL" }
+    { "label": "Champions League 2025 — PSG", "value": "€144.4M total", "change": "FINAL" },
+    { "label": "Cristiano Ronaldo — Al-Nassr", "value": "~€200M/yr", "change": "LATEST" },
+    { "label": "Lionel Messi — Inter Miami", "value": "$70-80M/yr", "change": "FINAL" },
+    { "label": "Wimbledon 2025 — Sinner", "value": "£3,000,000", "change": "FINAL" },
+    { "label": "Super Bowl LIX — Eagles Win", "value": "$157K/player", "change": "FINAL" },
+    { "label": "US Open Tennis 2025", "value": "$65M total", "change": "FINAL" },
+    { "label": "F1 2026 Season Prize Fund", "value": "$1.1B total", "change": "SEASON" },
+    { "label": "The Players 2026", "value": "$25M purse", "change": "FINAL" },
+    { "label": "US Open Golf 2025 — McIlroy", "value": "$3,870,000", "change": "FINAL" },
+    { "label": "UFC 315 — Makhachev wins", "value": "$1,050,000 disclosed", "change": "FINAL" }
   ],
   "featured": [
     {
@@ -21,19 +23,38 @@
       "sport": "PGA",
       "sportColor": "#006837",
       "event": "PGA Championship 2026",
-      "venue": "Quail Hollow Club, Charlotte",
+      "venue": "Aronimink Golf Club, Pennsylvania",
       "date": "May 2026",
       "status": "LATEST",
-      "totalPurse": "$21,000,000",
-      "winnerPayout": "$3,780,000",
+      "totalPurse": "$20,500,000",
+      "winnerPayout": "$3,690,000",
       "breakdown": [
-        { "place": "1st", "pct": "18%", "amount": "$3,780,000" },
-        { "place": "2nd", "pct": "11%", "amount": "$2,268,000" },
-        { "place": "3rd", "pct": "7%", "amount": "$1,428,000" },
-        { "place": "4th", "pct": "5%", "amount": "$1,008,000" },
-        { "place": "5th", "pct": "4%", "amount": "$840,000" }
+        { "place": "1st — Aaron Rai",     "pct": "18%",  "amount": "$3,690,000" },
+        { "place": "T2 — Jon Rahm",       "pct": "8.8%", "amount": "$1,804,000" },
+        { "place": "T2 — Alex Smalley",   "pct": "8.8%", "amount": "$1,804,000" },
+        { "place": "4th — M. Schmid",     "pct": "5.6%", "amount": "$1,148,000" },
+        { "place": "5th — Cameron Smith", "pct": "4.7%", "amount": "$963,000"   }
       ],
       "slug": "pga-championship-2026-payout"
+    },
+    {
+      "id": "champions-league-2025",
+      "sport": "Football",
+      "sportColor": "#1a3a6b",
+      "event": "Champions League 2024-25",
+      "venue": "Allianz Arena, Munich",
+      "date": "June 2025",
+      "status": "FINAL",
+      "totalPurse": "€2,470,000,000",
+      "winnerPayout": "€144,400,000 (PSG)",
+      "breakdown": [
+        { "place": "Winner — PSG",       "pct": "~5.8%", "amount": "€144,400,000" },
+        { "place": "Runner-up — Inter",  "pct": "~5.5%", "amount": "€136,600,000" },
+        { "place": "Semi-final exit",    "pct": "—",     "amount": "~€115,000,000" },
+        { "place": "QF exit",            "pct": "—",     "amount": "~€90,000,000"  },
+        { "place": "Participation fee",  "pct": "—",     "amount": "€18,620,000"   }
+      ],
+      "slug": "champions-league-2025-prize-money"
     },
     {
       "id": "nba-finals-2026",
@@ -46,10 +67,10 @@
       "totalPurse": "$24,600,000",
       "winnerPayout": "$547K/player",
       "breakdown": [
-        { "place": "Champion Share", "pct": "—", "amount": "$547,000" },
-        { "place": "Runner-up", "pct": "—", "amount": "$272,000" },
-        { "place": "Conf. Finalist", "pct": "—", "amount": "$174,000" },
-        { "place": "2nd Round Exit", "pct": "—", "amount": "$87,000" }
+        { "place": "Champion Share",    "pct": "—", "amount": "$547,000" },
+        { "place": "Runner-up",         "pct": "—", "amount": "$272,000" },
+        { "place": "Conf. Finalist",    "pct": "—", "amount": "$174,000" },
+        { "place": "2nd Round Exit",    "pct": "—", "amount": "$87,000"  }
       ],
       "slug": "nba-finals-2026-payout"
     },
@@ -64,10 +85,10 @@
       "totalPurse": "$1,100,000,000",
       "winnerPayout": "~$147M (WCC)",
       "breakdown": [
-        { "place": "WCC 1st", "pct": "~13%", "amount": "~$147M" },
-        { "place": "WCC 2nd", "pct": "~12%", "amount": "~$132M" },
-        { "place": "WCC 3rd", "pct": "~10%", "amount": "~$112M" },
-        { "place": "WCC 10th", "pct": "~3%", "amount": "~$35M" }
+        { "place": "WCC 1st",  "pct": "~13%", "amount": "~$147M" },
+        { "place": "WCC 2nd",  "pct": "~12%", "amount": "~$132M" },
+        { "place": "WCC 3rd",  "pct": "~10%", "amount": "~$112M" },
+        { "place": "WCC 10th", "pct": "~3%",  "amount": "~$35M"  }
       ],
       "slug": "f1-2026-prize-fund-breakdown"
     },
@@ -75,17 +96,17 @@
       "id": "super-bowl-lix",
       "sport": "NFL",
       "sportColor": "#003F8A",
-      "event": "Super Bowl LIX",
-      "venue": "New Orleans, Louisiana",
+      "event": "Super Bowl LIX — Eagles Win",
+      "venue": "Caesars Superdome, New Orleans",
       "date": "Feb 2025",
       "status": "FINAL",
-      "totalPurse": "$14,500,000",
+      "totalPurse": "$120,000,000",
       "winnerPayout": "$157K/player",
       "breakdown": [
-        { "place": "Winner Share", "pct": "—", "amount": "$157,000" },
-        { "place": "Loser Share", "pct": "—", "amount": "$82,000" },
-        { "place": "Conf. Champ Win", "pct": "—", "amount": "$67,000" },
-        { "place": "Divisional Win", "pct": "—", "amount": "$54,000" }
+        { "place": "Winner Share",   "pct": "—", "amount": "$157,000" },
+        { "place": "Loser Share",    "pct": "—", "amount": "$82,000"  },
+        { "place": "Conf. Champ Win","pct": "—", "amount": "$67,000"  },
+        { "place": "Divisional Win", "pct": "—", "amount": "$54,000"  }
       ],
       "slug": "super-bowl-lix-payout"
     },
@@ -93,87 +114,41 @@
       "id": "wimbledon-2025",
       "sport": "Tennis",
       "sportColor": "#4A7C59",
-      "event": "Wimbledon 2025",
+      "event": "Wimbledon 2025 — Sinner Wins",
       "venue": "All England Club, London",
       "date": "July 2025",
       "status": "FINAL",
-      "totalPurse": "£50,000,000",
-      "winnerPayout": "£3,180,000",
+      "totalPurse": "£53,500,000",
+      "winnerPayout": "£3,000,000",
       "breakdown": [
-        { "place": "Singles W", "pct": "6.4%", "amount": "£3,180,000" },
-        { "place": "Runner-up", "pct": "3.4%", "amount": "£1,680,000" },
-        { "place": "Semi-finalist", "pct": "1.8%", "amount": "£900,000" },
-        { "place": "Quarter-finalist", "pct": "1.0%", "amount": "£490,000" }
+        { "place": "Singles Winner", "pct": "5.6%", "amount": "£3,000,000"  },
+        { "place": "Runner-up",      "pct": "2.8%", "amount": "£1,520,000"  },
+        { "place": "Semi-finalist",  "pct": "1.4%", "amount": "£775,000"    },
+        { "place": "QF",             "pct": "0.7%", "amount": "£400,000"    }
       ],
       "slug": "wimbledon-2025-payout"
-    },
-    {
-      "id": "ufc-315",
-      "sport": "UFC",
-      "sportColor": "#D4002A",
-      "event": "UFC 315",
-      "venue": "Montreal, QC",
-      "date": "May 2025",
-      "status": "FINAL",
-      "totalPurse": "$3,400,000",
-      "winnerPayout": "$1,050,000",
-      "breakdown": [
-        { "place": "Main Evt W", "pct": "—", "amount": "$1,050,000" },
-        { "place": "Main Evt L", "pct": "—", "amount": "$525,000" },
-        { "place": "Co-Main W", "pct": "—", "amount": "$300,000" },
-        { "place": "Perf. Bonus", "pct": "—", "amount": "$50,000 ea" }
-      ],
-      "slug": "ufc-315-payout"
     }
   ],
   "leaderboard": [
-    { "rank": 1, "event": "F1 2026 Season Prize Fund",       "sport": "F1",     "totalPurse": "$1,100,000,000", "year": 2026, "slug": "f1-2026-prize-fund-breakdown" },
-    { "rank": 2, "event": "NFL 2025–26 Total Playoff Pool",  "sport": "NFL",    "totalPurse": "$120,000,000",   "year": 2026, "slug": "nfl-playoff-payout-2026" },
-    { "rank": 3, "event": "US Open Tennis 2025",              "sport": "Tennis", "totalPurse": "$65,000,000",    "year": 2025, "slug": "us-open-tennis-2025-payout" },
-    { "rank": 4, "event": "NBA Playoffs 2026 Prize Pool",    "sport": "NBA",    "totalPurse": "$24,600,000",    "year": 2026, "slug": "nba-finals-2026-payout" },
-    { "rank": 5, "event": "The Players Championship 2026",   "sport": "PGA",    "totalPurse": "$25,000,000",    "year": 2026, "slug": "the-players-2026-payout" },
-    { "rank": 6, "event": "US Open Golf 2025",                "sport": "PGA",    "totalPurse": "$21,500,000",    "year": 2025, "slug": "us-open-golf-2025-payout" },
-    { "rank": 7, "event": "PGA Championship 2026",           "sport": "PGA",    "totalPurse": "$21,000,000",    "year": 2026, "slug": "pga-championship-2026-payout" },
-    { "rank": 8, "event": "Wimbledon 2025",                  "sport": "Tennis", "totalPurse": "£50,000,000",    "year": 2025, "slug": "wimbledon-2025-payout" },
-    { "rank": 9, "event": "ATP Finals 2025",                  "sport": "Tennis", "totalPurse": "$9,750,000",     "year": 2025, "slug": "atp-finals-2025-payout" },
-    { "rank": 10, "event": "The Open Championship 2025",     "sport": "PGA",    "totalPurse": "$17,000,000",    "year": 2025, "slug": "the-open-2025-payout" }
+    { "rank": 1,  "event": "Champions League 2024-25",          "sport": "Football", "totalPurse": "€2,470,000,000",  "year": 2025, "slug": "champions-league-2025-prize-money" },
+    { "rank": 2,  "event": "F1 2026 Season Prize Fund",         "sport": "F1",       "totalPurse": "$1,100,000,000",  "year": 2026, "slug": "f1-2026-prize-fund-breakdown" },
+    { "rank": 3,  "event": "NFL 2025-26 Total Playoff Pool",    "sport": "NFL",      "totalPurse": "$120,000,000",    "year": 2026, "slug": "nfl-playoff-payout-2026" },
+    { "rank": 4,  "event": "US Open Tennis 2025",               "sport": "Tennis",   "totalPurse": "$65,000,000",     "year": 2025, "slug": "us-open-tennis-2025-payout" },
+    { "rank": 5,  "event": "NBA Playoffs 2026 Prize Pool",      "sport": "NBA",      "totalPurse": "$24,600,000",     "year": 2026, "slug": "nba-finals-2026-payout" },
+    { "rank": 6,  "event": "The Players Championship 2026",     "sport": "PGA",      "totalPurse": "$25,000,000",     "year": 2026, "slug": "the-players-2026-payout" },
+    { "rank": 7,  "event": "US Open Golf 2025",                 "sport": "PGA",      "totalPurse": "$21,500,000",     "year": 2025, "slug": "us-open-golf-2025-payout" },
+    { "rank": 8,  "event": "PGA Championship 2026",             "sport": "PGA",      "totalPurse": "$20,500,000",     "year": 2026, "slug": "pga-championship-2026-payout" },
+    { "rank": 9,  "event": "Wimbledon 2025",                    "sport": "Tennis",   "totalPurse": "£53,500,000",     "year": 2025, "slug": "wimbledon-2025-payout" },
+    { "rank": 10, "event": "ATP Finals 2025",                   "sport": "Tennis",   "totalPurse": "$9,750,000",      "year": 2025, "slug": "atp-finals-2025-payout" }
   ],
   "articles": [
-    {
-      "title": "PGA Championship 2026: Full Payout Breakdown",
-      "slug": "pga-championship-2026-payout",
-      "sport": "PGA",
-      "sportColor": "#006837",
-      "date": "May 18, 2026",
-      "excerpt": "The PGA Championship at Quail Hollow features a $21 million purse. Here's exactly how every dollar distributes — from first place down to the last man to make the cut.",
-      "readTime": "4 min"
-    },
-    {
-      "title": "NBA Finals 2026 Prize Money: Champion vs. Runner-Up",
-      "slug": "nba-finals-2026-payout",
-      "sport": "NBA",
-      "sportColor": "#C9082A",
-      "date": "June 2026",
-      "excerpt": "From champion shares to first-round exits — every playoff bonus in the $24.6M NBA prize pool, fully explained.",
-      "readTime": "3 min"
-    },
-    {
-      "title": "F1 2026 Constructor Prize Fund: The Full $1.1B Breakdown",
-      "slug": "f1-2026-prize-fund-breakdown",
-      "sport": "F1",
-      "sportColor": "#E8002D",
-      "date": "Mar 2026",
-      "excerpt": "Formula 1's total prize fund exceeds $1.1 billion. Here's how FOM distributes that money across all ten constructors in 2026.",
-      "readTime": "5 min"
-    },
-    {
-      "title": "Super Bowl LIX: What Each Player Actually Earned",
-      "slug": "super-bowl-lix-payout",
-      "sport": "NFL",
-      "sportColor": "#003F8A",
-      "date": "Feb 2025",
-      "excerpt": "Beyond the $157K winner's share, the Super Bowl bonus structure is more complex than most fans realize. Full breakdown inside.",
-      "readTime": "4 min"
-    }
+    { "title": "PGA Championship 2026: Aaron Rai Wins $3,690,000 at Aronimink",         "slug": "pga-championship-2026-payout",        "sport": "PGA",     "sportColor": "#006837", "date": "May 2026",  "excerpt": "Aaron Rai became the first Englishman to win the PGA Championship in the stroke play era, shooting 65 at Aronimink. Full breakdown of the record $20.5M purse.", "readTime": "5 min" },
+    { "title": "Champions League 2024-25: PSG Earns €144.4 Million",                    "slug": "champions-league-2025-prize-money",   "sport": "Football","sportColor": "#1a3a6b", "date": "Jun 2025",  "excerpt": "PSG won the UCL final in Munich, claiming €144.4M from a record €2.47 billion prize pool. How every euro was distributed across 36 clubs.", "readTime": "6 min" },
+    { "title": "Cristiano Ronaldo Salary 2025: ~€200M/Year at Al-Nassr",                "slug": "ronaldo-salary-2025",                 "sport": "Football","sportColor": "#1a3a6b", "date": "Jun 2025",  "excerpt": "Ronaldo's new 2-year deal keeps him as the highest-paid athlete on earth. Full breakdown of salary, bonuses, equity stake, and career earnings history.", "readTime": "5 min" },
+    { "title": "Lionel Messi Salary at Inter Miami: $70-80M Total Package",             "slug": "messi-inter-miami-salary",            "sport": "Football","sportColor": "#1a3a6b", "date": "Mar 2026",  "excerpt": "MLS Cup champion. Club owner Jorge Mas confirmed Messi earns $70-80M/year across all streams. Complete breakdown of his Inter Miami deal.", "readTime": "5 min" },
+    { "title": "Wimbledon 2025: Jannik Sinner Wins £3,000,000",                        "slug": "wimbledon-2025-payout",               "sport": "Tennis",  "sportColor": "#4A7C59", "date": "Jul 2025",  "excerpt": "Sinner defeated defending champion Alcaraz to claim his first Wimbledon crown and £3M from a record £53.5M total pool.", "readTime": "4 min" },
+    { "title": "Super Bowl LIX: Eagles Win — $157K Per Player Full Breakdown",          "slug": "super-bowl-lix-payout",               "sport": "NFL",     "sportColor": "#003F8A", "date": "Feb 2025",  "excerpt": "Philadelphia defeated Kansas City 40-22. Every player's bonus from Wild Card through the championship, plus what a full playoff run is worth.", "readTime": "4 min" },
+    { "title": "F1 2026 Prize Fund: The Complete $1.1 Billion Breakdown",              "slug": "f1-2026-prize-fund-breakdown",        "sport": "F1",      "sportColor": "#E8002D", "date": "Mar 2026",  "excerpt": "How FOM distributes $1.1B across all 10 constructors — from the WCC winner's ~$147M to last place's ~$35M. Every column explained.", "readTime": "5 min" },
+    { "title": "NBA Finals 2026: Champions Earn $547,000 Per Player",                  "slug": "nba-finals-2026-payout",              "sport": "NBA",     "sportColor": "#C9082A", "date": "Jun 2026",  "excerpt": "The $24.6M NBA playoff pool explained from first-round exits to championship winners. Every per-player figure confirmed.", "readTime": "3 min" }
   ]
 }
