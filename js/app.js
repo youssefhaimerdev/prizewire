@@ -353,7 +353,7 @@
   // SETUP: Go to formspree.io → New Form → copy your endpoint
   // Replace FORMSPREE_ENDPOINT below with your form URL
   // e.g. 'https://formspree.io/f/xabcdefg'
-  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/REPLACE_WITH_YOUR_ID';
+  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mgoqnlnk';
 
   function initNewsletter() {
     const btn   = document.querySelector('.btn-gold');
