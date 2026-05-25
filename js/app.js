@@ -349,24 +349,60 @@
     });
   }
 
-  // ── 10. NEWSLETTER BUTTON (placeholder) ──────────────────
+  // ── 10. NEWSLETTER — Formspree ───────────────────────────
+  // SETUP: Go to formspree.io → New Form → copy your endpoint
+  // Replace FORMSPREE_ENDPOINT below with your form URL
+  // e.g. 'https://formspree.io/f/xabcdefg'
+  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/REPLACE_WITH_YOUR_ID';
+
   function initNewsletter() {
     const btn   = document.querySelector('.btn-gold');
     const input = document.querySelector('.newsletter-input');
     if (!btn || !input) return;
 
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', async () => {
       const val = input.value.trim();
       if (!val || !val.includes('@')) {
         input.style.borderColor = 'var(--red)';
-        setTimeout(() => input.style.borderColor = '', 1500);
+        input.focus();
+        setTimeout(() => input.style.borderColor = '', 2000);
         return;
       }
-      // Replace with your email service (Mailchimp, ConvertKit, etc.)
-      btn.textContent  = 'SUBSCRIBED ✓';
-      btn.style.background = 'var(--green)';
-      input.disabled   = true;
-      btn.disabled     = true;
+
+      btn.textContent = 'SENDING...';
+      btn.disabled = true;
+      input.disabled = true;
+
+      try {
+        const res = await fetch(FORMSPREE_ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify({ email: val, source: 'prizewire-homepage' })
+        });
+
+        if (res.ok) {
+          btn.textContent = 'SUBSCRIBED ✓';
+          btn.style.background = 'var(--green)';
+          btn.style.color = '#000';
+          input.value = '';
+        } else {
+          throw new Error('Form error');
+        }
+      } catch {
+        btn.textContent = 'TRY AGAIN';
+        btn.disabled = false;
+        input.disabled = false;
+        btn.style.background = 'var(--red)';
+        setTimeout(() => {
+          btn.textContent = 'SUBSCRIBE';
+          btn.style.background = '';
+        }, 3000);
+      }
+    });
+
+    // Enter key support
+    input.addEventListener('keydown', e => {
+      if (e.key === 'Enter') btn.click();
     });
   }
 

@@ -104,8 +104,24 @@
       "sportColor": "#006837",
       "team": "United States",
       "nationality": "🇺🇸 United States",
-      "note": "PGA Tour prize money is paid directly to the player.",
+      "note": "World No. 1. Has won Masters (×2), PGA Championship, The Open. Needs US Open for Career Grand Slam.",
       "payouts": [
+        {
+          "event": "Masters 2026",
+          "year": 2026,
+          "result": "Winner",
+          "payout": "$4,500,000",
+          "type": "Tournament Purse",
+          "slug": "masters-2026-payout"
+        },
+        {
+          "event": "The Open Championship 2025",
+          "year": 2025,
+          "result": "Winner — 4th major, 1st Claret Jug",
+          "payout": "$3,100,000",
+          "type": "Tournament Purse",
+          "slug": "the-open-2025-payout"
+        },
         {
           "event": "The Players Championship 2026",
           "year": 2026,
@@ -576,6 +592,119 @@
           "payout": "$780,000",
           "type": "Disclosed Purse",
           "slug": ""
+        }
+      ]
+    },
+    {
+      "id": "canelo-alvarez",
+      "name": "Canelo Álvarez",
+      "sport": "Boxing",
+      "sportColor": "#7B2FBE",
+      "team": "Free Agent",
+      "nationality": "🇲🇽 Mexico",
+      "note": "Boxing fight purses are privately negotiated. PPV point revenue and backend deals are not included in disclosed figures. Career earnings approach $800M.",
+      "payouts": [
+        {
+          "event": "vs Terence Crawford",
+          "year": 2025,
+          "result": "Lost by UD (Crawford wins)",
+          "payout": "$100M+ (Riyadh Season deal)",
+          "type": "Fight Purse",
+          "slug": "canelo-crawford-fight-purse"
+        },
+        {
+          "event": "vs William Scull",
+          "year": 2025,
+          "result": "Winner",
+          "payout": "$80,000,000",
+          "type": "Fight Purse",
+          "slug": "canelo-crawford-fight-purse"
+        },
+        {
+          "event": "vs Jaime Munguia",
+          "year": 2024,
+          "result": "Winner",
+          "payout": "$35,000,000",
+          "type": "Fight Purse",
+          "slug": "canelo-crawford-fight-purse"
+        },
+        {
+          "event": "vs John Ryder (Mexico)",
+          "year": 2023,
+          "result": "Winner",
+          "payout": "$20,000,000",
+          "type": "Fight Purse",
+          "slug": "canelo-crawford-fight-purse"
+        },
+        {
+          "event": "vs GGG I",
+          "year": 2017,
+          "result": "Draw",
+          "payout": "$40,000,000",
+          "type": "Fight Purse",
+          "slug": "canelo-crawford-fight-purse"
+        },
+        {
+          "event": "Riyadh Season Deal (2025)",
+          "year": 2025,
+          "result": "4-5 fight contract",
+          "payout": "$400,000,000 total",
+          "type": "Multi-fight Deal",
+          "slug": "canelo-crawford-fight-purse"
+        }
+      ]
+    },
+    {
+      "id": "terence-crawford",
+      "name": "Terence Crawford",
+      "sport": "Boxing",
+      "sportColor": "#7B2FBE",
+      "team": "United States",
+      "nationality": "🇺🇸 United States",
+      "note": "Crawford self-disclosed his $10M purse vs Canelo on a podcast, saying he fought for legacy over money — and won.",
+      "payouts": [
+        {
+          "event": "vs Canelo Álvarez",
+          "year": 2025,
+          "result": "Winner by UD — Undisputed Super Middleweight",
+          "payout": "$10,000,000",
+          "type": "Fight Purse (self-disclosed)",
+          "slug": "canelo-crawford-fight-purse"
+        }
+      ]
+    },
+    {
+      "id": "kylian-mbappe",
+      "name": "Kylian Mbappé",
+      "sport": "Football",
+      "sportColor": "#1a3a6b",
+      "team": "Real Madrid",
+      "nationality": "🇫🇷 France",
+      "note": "Joined Real Madrid on a free transfer from PSG in July 2024. Contract includes a reported €150M signing bonus.",
+      "payouts": [
+        {
+          "event": "Real Madrid Contract 2024-29",
+          "year": 2024,
+          "result": "Free transfer from PSG",
+          "payout": "~€100M/year total",
+          "type": "Salary + Bonuses (est.)",
+          "slug": "mbappe-real-madrid-salary"
+        },
+        {
+          "event": "Signing Bonus — Real Madrid",
+          "year": 2024,
+          "result": "Contract signing",
+          "payout": "€150,000,000",
+          "type": "One-time signing bonus",
+          "slug": "mbappe-real-madrid-salary"
+        },
+        {
+          "event": "Champions League 2024-25 (Real Madrid)",
+          "year": 2025,
+          "result": "UCL campaign",
+          "payout": "Part of team share",
+          "type": "UCL Share (to club)",
+          "slug": "champions-league-2025-prize-money"
         }
       ]
     }
