@@ -5,6 +5,21 @@
   },
   "ticker": [
     {
+      "label": "Kimi Antonelli — 4 F1 wins from 5 races",
+      "value": "$2M salary · WDC leader",
+      "change": "LATEST"
+    },
+    {
+      "label": "NBA Finals 2026 — Knicks in Finals",
+      "value": "$547K/player champion share",
+      "change": "LIVE"
+    },
+    {
+      "label": "Wembanyama — $300M extension July 6",
+      "value": "$13.4M current salary",
+      "change": "LATEST"
+    },
+    {
       "label": "World Cup 2026 — Starts June 11",
       "value": "$871M total prize fund",
       "change": "LATEST"
@@ -20,13 +35,48 @@
       "change": "FINAL"
     },
     {
-      "label": "NBA Finals 2026",
-      "value": "$547K/player",
-      "change": "LIVE"
-    },
-    {
       "label": "Champions League 2025 — PSG",
       "value": "€144.4M total",
+      "change": "FINAL"
+    },
+    {
+      "label": "Cristiano Ronaldo — Al-Nassr",
+      "value": "~€200M/yr salary",
+      "change": "LATEST"
+    },
+    {
+      "label": "Club World Cup 2025 — Chelsea win",
+      "value": "~$125M to Chelsea",
+      "change": "FINAL"
+    },
+    {
+      "label": "Wimbledon 2025 — Sinner wins",
+      "value": "£3,000,000",
+      "change": "FINAL"
+    },
+    {
+      "label": "F1 2026 grid salaries",
+      "value": "$324M combined record",
+      "change": "LATEST"
+    },
+    {
+      "label": "Jalen Brunson — ECF MVP",
+      "value": "$45.6M salary · Knicks Finals",
+      "change": "LATEST"
+    },
+    {
+      "label": "Super Bowl LIX — Eagles win",
+      "value": "$157K/player",
+      "change": "FINAL"
+    },
+    {
+      "label": "F1 2026 Season Prize Fund",
+      "value": "$1.1B total",
+      "change": "SEASON"
+    },
+    {
+      "label": "US Open Tennis 2025",
+      "value": "$65M total",
       "change": "FINAL"
     },
     {
@@ -379,6 +429,51 @@
     }
   ],
   "articles": [
+    {
+      "title": "Kimi Antonelli 2026: 4 F1 Wins on a $2M Salary",
+      "slug": "kimi-antonelli-2026-season",
+      "sport": "F1",
+      "sportColor": "#E8002D",
+      "date": "May 26, 2026",
+      "excerpt": "Antonelli has won 4 of the first 5 F1 races in 2026 at 19 years old on a $2M base salary. Monaco GP preview, championship breakdown, and the renegotiation story.",
+      "readTime": "6 min"
+    },
+    {
+      "title": "Victor Wembanyama Salary 2026: $13.4M Now — $300M Extension July 6",
+      "slug": "victor-wembanyama-salary-contract",
+      "sport": "NBA",
+      "sportColor": "#C9082A",
+      "date": "May 26, 2026",
+      "excerpt": "Wembanyama leads the Spurs to the 2026 WCF on $13.4M. His $255-303M extension becomes available July 6. Full contract breakdown and Game 5 preview tonight.",
+      "readTime": "6 min"
+    },
+    {
+      "title": "NBA Finals 2026: Knicks vs TBD — Schedule, Prize Money & Preview",
+      "slug": "nba-finals-2026-preview",
+      "sport": "NBA",
+      "sportColor": "#C9082A",
+      "date": "May 26, 2026",
+      "excerpt": "The Knicks are in the Finals for the first time since 1999. Spurs vs Thunder tied 2-2, Game 5 tonight. Full schedule, $547K prize breakdown, and both team previews.",
+      "readTime": "5 min"
+    },
+    {
+      "title": "F1 2026 Driver Salaries: Full Grid — $324M Combined",
+      "slug": "f1-2026-driver-salaries",
+      "sport": "F1",
+      "sportColor": "#E8002D",
+      "date": "May 2026",
+      "excerpt": "Complete 2026 F1 driver salary rankings. $324M combined — record. Verstappen $70M. Antonelli leads the championship on $2M. All 22 drivers listed.",
+      "readTime": "5 min"
+    },
+    {
+      "title": "Jalen Brunson Salary 2026: $45.6M, ECF MVP & Knicks Finals",
+      "slug": "jalen-brunson-salary-knicks",
+      "sport": "NBA",
+      "sportColor": "#C9082A",
+      "date": "May 2026",
+      "excerpt": "Brunson earned the ECF MVP leading the Knicks to their first Finals since 1999. Full breakdown of his $156.5M contract, performance, and what a championship means.",
+      "readTime": "5 min"
+    },
     {
       "title": "FIFA World Cup 2026: $871M Prize Fund — Winner Gets $50M",
       "slug": "world-cup-2026-prize-money",

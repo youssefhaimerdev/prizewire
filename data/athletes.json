@@ -707,6 +707,240 @@
           "slug": "champions-league-2025-prize-money"
         }
       ]
+    },
+    {
+      "id": "kimi-antonelli",
+      "name": "Kimi Antonelli",
+      "sport": "F1",
+      "sportColor": "#E8002D",
+      "team": "Mercedes AMG Petronas",
+      "nationality": "🇮🇹 Italy",
+      "note": "2026 WDC leader at 19 years old. $2M base salary — the most underpaid dominant driver in F1 history. Contract runs through 2027.",
+      "payouts": [
+        {
+          "event": "F1 2026 Canadian GP",
+          "year": 2026,
+          "result": "Winner — 4th win of season",
+          "payout": "Prize to Mercedes",
+          "type": "Constructor Prize (not driver)",
+          "slug": "kimi-antonelli-2026-season"
+        },
+        {
+          "event": "F1 2026 Miami GP",
+          "year": 2026,
+          "result": "Winner",
+          "payout": "Prize to Mercedes",
+          "type": "Constructor Prize",
+          "slug": "kimi-antonelli-2026-season"
+        },
+        {
+          "event": "F1 2026 Japanese GP",
+          "year": 2026,
+          "result": "Winner",
+          "payout": "Prize to Mercedes",
+          "type": "Constructor Prize",
+          "slug": "kimi-antonelli-2026-season"
+        },
+        {
+          "event": "F1 2026 Australian GP",
+          "year": 2026,
+          "result": "Winner — season opener",
+          "payout": "Prize to Mercedes",
+          "type": "Constructor Prize",
+          "slug": "kimi-antonelli-2026-season"
+        },
+        {
+          "event": "F1 2026 Season Base Salary",
+          "year": 2026,
+          "result": "Championship leader",
+          "payout": "$2,000,000",
+          "type": "Base Salary",
+          "slug": "f1-2026-driver-salaries"
+        },
+        {
+          "event": "F1 2026 Season (with bonuses)",
+          "year": 2026,
+          "result": "WDC contender",
+          "payout": "~$14,000,000",
+          "type": "Salary + Performance Bonuses",
+          "slug": "kimi-antonelli-2026-season"
+        }
+      ]
+    },
+    {
+      "id": "victor-wembanyama",
+      "name": "Victor Wembanyama",
+      "sport": "NBA",
+      "sportColor": "#C9082A",
+      "team": "San Antonio Spurs",
+      "nationality": "🇫🇷 France",
+      "note": "Leading the Spurs to the 2026 WCF on a $13.4M rookie deal. $300M extension eligible July 6, 2026. Averaging 30+ pts, 12 reb, 5 blk in playoffs.",
+      "payouts": [
+        {
+          "event": "NBA 2025-26 Salary (Year 3)",
+          "year": 2026,
+          "result": "WCF — Game 5 tonight",
+          "payout": "$13,376,880",
+          "type": "Rookie Scale Contract",
+          "slug": "victor-wembanyama-salary-contract"
+        },
+        {
+          "event": "NBA 2024-25 Salary (Year 2)",
+          "year": 2025,
+          "result": "Injury-shortened season",
+          "payout": "$12,768,960",
+          "type": "Rookie Scale Contract",
+          "slug": "victor-wembanyama-salary-contract"
+        },
+        {
+          "event": "NBA 2023-24 Salary (Year 1)",
+          "year": 2024,
+          "result": "Rookie of the Year",
+          "payout": "$12,160,680",
+          "type": "Rookie Scale Contract",
+          "slug": "victor-wembanyama-salary-contract"
+        },
+        {
+          "event": "Projected Extension 2026-31",
+          "year": 2026,
+          "result": "Eligible July 6, 2026",
+          "payout": "~$255-303M total",
+          "type": "Rookie Max Extension (est.)",
+          "slug": "victor-wembanyama-salary-contract"
+        },
+        {
+          "event": "2026 Playoff Bonus (projected)",
+          "year": 2026,
+          "result": "WCF · Game 5 tonight",
+          "payout": "Up to $547,000",
+          "type": "Playoff Bonus (if champion)",
+          "slug": "nba-finals-2026-payout"
+        }
+      ]
+    },
+    {
+      "id": "jalen-brunson",
+      "name": "Jalen Brunson",
+      "sport": "NBA",
+      "sportColor": "#C9082A",
+      "team": "New York Knicks",
+      "nationality": "🇺🇸 United States",
+      "note": "2026 Eastern Conference Finals MVP. Led Knicks to first NBA Finals since 1999 with a sweep of Cleveland. Signed 4-year, $156.5M extension in 2023.",
+      "payouts": [
+        {
+          "event": "NBA 2025-26 Salary",
+          "year": 2026,
+          "result": "ECF MVP · Knicks in Finals",
+          "payout": "$45,600,000",
+          "type": "Contract Extension Yr 3",
+          "slug": "jalen-brunson-salary-knicks"
+        },
+        {
+          "event": "NBA 2024-25 Salary",
+          "year": 2025,
+          "result": "All-Star",
+          "payout": "$39,500,000",
+          "type": "Contract Extension Yr 2",
+          "slug": "jalen-brunson-salary-knicks"
+        },
+        {
+          "event": "NBA 2023-24 Salary",
+          "year": 2024,
+          "result": "All-NBA",
+          "payout": "$22,000,000",
+          "type": "Contract Extension Yr 1",
+          "slug": "jalen-brunson-salary-knicks"
+        },
+        {
+          "event": "2026 Playoff Bonus (projected)",
+          "year": 2026,
+          "result": "If Knicks win Finals",
+          "payout": "$547,000",
+          "type": "Champion Player Share",
+          "slug": "nba-finals-2026-payout"
+        }
+      ]
+    },
+    {
+      "id": "george-russell",
+      "name": "George Russell",
+      "sport": "F1",
+      "sportColor": "#E8002D",
+      "team": "Mercedes AMG Petronas",
+      "nationality": "🇬🇧 United Kingdom",
+      "note": "Antonelli's teammate at Mercedes. Earns ~$35M/year — 17.5x more than the championship leader on the same team.",
+      "payouts": [
+        {
+          "event": "F1 2026 Season",
+          "year": 2026,
+          "result": "Points finishes",
+          "payout": "~$35,000,000",
+          "type": "Salary (est.)",
+          "slug": "f1-2026-driver-salaries"
+        },
+        {
+          "event": "F1 2025 Season",
+          "year": 2025,
+          "result": "Mid-field results",
+          "payout": "~$30,000,000",
+          "type": "Salary (est.)",
+          "slug": "f1-2026-driver-salaries"
+        }
+      ]
+    },
+    {
+      "id": "charles-leclerc",
+      "name": "Charles Leclerc",
+      "sport": "F1",
+      "sportColor": "#E8002D",
+      "team": "Ferrari",
+      "nationality": "🇲🇨 Monaco",
+      "note": "Ferrari's lead driver alongside Lewis Hamilton. Signed a long-term extension with Ferrari in 2024.",
+      "payouts": [
+        {
+          "event": "F1 2026 Season",
+          "year": 2026,
+          "result": "Championship contender",
+          "payout": "~$40,000,000",
+          "type": "Salary (est.)",
+          "slug": "f1-2026-driver-salaries"
+        },
+        {
+          "event": "F1 2025 Season",
+          "year": 2025,
+          "result": "Top 3 contender",
+          "payout": "~$35,000,000",
+          "type": "Salary (est.)",
+          "slug": "f1-2026-driver-salaries"
+        }
+      ]
+    },
+    {
+      "id": "oscar-piastri",
+      "name": "Oscar Piastri",
+      "sport": "F1",
+      "sportColor": "#E8002D",
+      "team": "McLaren",
+      "nationality": "🇦🇺 Australia",
+      "note": "McLaren's No. 1 driver alongside Lando Norris. 2024 World Drivers' Champion.",
+      "payouts": [
+        {
+          "event": "F1 2026 Season",
+          "year": 2026,
+          "result": "Championship challenger",
+          "payout": "~$10,000,000",
+          "type": "Salary (est.)",
+          "slug": "f1-2026-driver-salaries"
+        },
+        {
+          "event": "F1 2024 World Championship",
+          "year": 2024,
+          "result": "World Champion",
+          "payout": "Prize to McLaren",
+          "type": "WDC (prize to team)",
+          "slug": "f1-2026-prize-fund-breakdown"
+        }
+      ]
     }
   ]
 }

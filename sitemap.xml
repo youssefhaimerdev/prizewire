@@ -2,31 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- Core pages -->
-  <url><loc>https://prizewire.vercel.app/</loc><lastmod>2026-05-20</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://prizewire.vercel.app/articles/</loc><lastmod>2026-05-20</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://prizewire.vercel.app/search</loc><lastmod>2026-05-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://prizewire.vercel.app/leaderboard/</loc><lastmod>2026-05-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://prizewire.vercel.app/salaries/</loc><lastmod>2026-05-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://prizewire.vercel.app/records/</loc><lastmod>2026-05-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-
-  <!-- Utility pages -->
-  <url><loc>https://prizewire.vercel.app/about/</loc><lastmod>2026-05-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://prizewire.vercel.app/contact/</loc><lastmod>2026-05-20</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://prizewire.vercel.app/methodology/</loc><lastmod>2026-05-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://prizewire.vercel.app/advertise/</loc><lastmod>2026-05-20</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://prizewire.vercel.app/privacy/</loc><lastmod>2026-05-20</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://prizewire.vercel.app/</loc><lastmod>2026-05-26</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://prizewire.vercel.app/articles/</loc><lastmod>2026-05-26</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://prizewire.vercel.app/search</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://prizewire.vercel.app/leaderboard/</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prizewire.vercel.app/salaries/</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prizewire.vercel.app/records/</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://prizewire.vercel.app/about/</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://prizewire.vercel.app/contact/</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://prizewire.vercel.app/methodology/</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://prizewire.vercel.app/advertise/</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://prizewire.vercel.app/privacy/</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
 
   <!-- Sport category pages -->
-  <url><loc>https://prizewire.vercel.app/football/</loc><lastmod>2026-05-20</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://prizewire.vercel.app/boxing/</loc><lastmod>2026-05-20</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://prizewire.vercel.app/pga/</loc><lastmod>2026-05-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://prizewire.vercel.app/nfl/</loc><lastmod>2026-05-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://prizewire.vercel.app/nba/</loc><lastmod>2026-05-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://prizewire.vercel.app/f1/</loc><lastmod>2026-05-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://prizewire.vercel.app/tennis/</loc><lastmod>2026-05-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://prizewire.vercel.app/ufc/</loc><lastmod>2026-05-20</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://prizewire.vercel.app/football/</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://prizewire.vercel.app/boxing/</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://prizewire.vercel.app/pga/</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prizewire.vercel.app/nfl/</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prizewire.vercel.app/nba/</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prizewire.vercel.app/f1/</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prizewire.vercel.app/tennis/</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prizewire.vercel.app/ufc/</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 
-  <!-- Football articles (HIGHEST VOLUME) -->
+  <!-- TODAY'S NEW ARTICLES — highest priority -->
+  <url><loc>https://prizewire.vercel.app/articles/kimi-antonelli-2026-season</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://prizewire.vercel.app/articles/victor-wembanyama-salary-contract</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://prizewire.vercel.app/articles/nba-finals-2026-preview</loc><lastmod>2026-05-26</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://prizewire.vercel.app/articles/f1-2026-driver-salaries</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://prizewire.vercel.app/articles/jalen-brunson-salary-knicks</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+
+  <!-- Football (highest volume searches) -->
   <url><loc>https://prizewire.vercel.app/articles/world-cup-2026-prize-money</loc><lastmod>2026-05-20</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://prizewire.vercel.app/articles/ronaldo-salary-2025</loc><lastmod>2026-05-20</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://prizewire.vercel.app/articles/messi-inter-miami-salary</loc><lastmod>2026-05-20</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
@@ -37,7 +42,7 @@
   <!-- Boxing -->
   <url><loc>https://prizewire.vercel.app/articles/canelo-crawford-fight-purse</loc><lastmod>2026-05-20</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
 
-  <!-- PGA articles -->
+  <!-- PGA -->
   <url><loc>https://prizewire.vercel.app/articles/pga-championship-2026-payout</loc><lastmod>2026-05-17</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
   <url><loc>https://prizewire.vercel.app/articles/masters-2026-payout</loc><lastmod>2026-04-15</lastmod><changefreq>monthly</changefreq><priority>0.90</priority></url>
   <url><loc>https://prizewire.vercel.app/articles/the-players-2026-payout</loc><lastmod>2026-03-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
@@ -49,7 +54,7 @@
   <url><loc>https://prizewire.vercel.app/articles/nfl-playoff-payout-2026</loc><lastmod>2026-02-10</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
 
   <!-- NBA -->
-  <url><loc>https://prizewire.vercel.app/articles/nba-finals-2026-payout</loc><lastmod>2026-05-20</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://prizewire.vercel.app/articles/nba-finals-2026-payout</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
 
   <!-- F1 -->
   <url><loc>https://prizewire.vercel.app/articles/f1-2026-prize-fund-breakdown</loc><lastmod>2026-03-01</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
