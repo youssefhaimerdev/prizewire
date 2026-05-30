@@ -5,6 +5,36 @@
   },
   "ticker": [
     {
+      "label": "Norway Chess R3 TODAY — Firouzja perfect 6/6",
+      "value": "~$182K prize pool",
+      "change": "LIVE"
+    },
+    {
+      "label": "Micah Parsons — NFL's #1 earner 2026",
+      "value": "$86.4M total",
+      "change": "LATEST"
+    },
+    {
+      "label": "Shohei Ohtani — $2M salary, $125M endorsements",
+      "value": "$127M total 2026",
+      "change": "LATEST"
+    },
+    {
+      "label": "Juan Soto Mets contract",
+      "value": "$765M · largest in sports",
+      "change": "FINAL"
+    },
+    {
+      "label": "Magnus Carlsen net worth",
+      "value": "$25-35M · $12M prizes",
+      "change": "LATEST"
+    },
+    {
+      "label": "Hikaru Nakamura streaming income",
+      "value": "$1.35M/yr · $10-20M net worth",
+      "change": "LATEST"
+    },
+    {
       "label": "Kimi Antonelli — 4 F1 wins from 5 races",
       "value": "$2M salary · WDC leader",
       "change": "LATEST"
@@ -63,71 +93,6 @@
       "label": "Jalen Brunson — ECF MVP",
       "value": "$45.6M salary · Knicks Finals",
       "change": "LATEST"
-    },
-    {
-      "label": "Super Bowl LIX — Eagles win",
-      "value": "$157K/player",
-      "change": "FINAL"
-    },
-    {
-      "label": "F1 2026 Season Prize Fund",
-      "value": "$1.1B total",
-      "change": "SEASON"
-    },
-    {
-      "label": "US Open Tennis 2025",
-      "value": "$65M total",
-      "change": "FINAL"
-    },
-    {
-      "label": "Cristiano Ronaldo — Al-Nassr",
-      "value": "~€200M/yr",
-      "change": "LATEST"
-    },
-    {
-      "label": "Club World Cup 2025 — Chelsea win",
-      "value": "~$125M to Chelsea",
-      "change": "FINAL"
-    },
-    {
-      "label": "Wimbledon 2025 — Sinner wins",
-      "value": "£3,000,000",
-      "change": "FINAL"
-    },
-    {
-      "label": "Super Bowl LIX — Eagles win",
-      "value": "$157K/player",
-      "change": "FINAL"
-    },
-    {
-      "label": "US Open Tennis 2025",
-      "value": "$65M total",
-      "change": "FINAL"
-    },
-    {
-      "label": "F1 2026 Season Prize Fund",
-      "value": "$1.1B total",
-      "change": "SEASON"
-    },
-    {
-      "label": "The Open 2025 — Scheffler wins",
-      "value": "$3,100,000",
-      "change": "FINAL"
-    },
-    {
-      "label": "Roland Garros 2025 — Alcaraz/Swiatek",
-      "value": "€57.2M total",
-      "change": "FINAL"
-    },
-    {
-      "label": "The Players 2026",
-      "value": "$25M purse",
-      "change": "FINAL"
-    },
-    {
-      "label": "Masters 2026",
-      "value": "$22.5M purse",
-      "change": "FINAL"
     }
   ],
   "featured": [
@@ -429,6 +394,87 @@
     }
   ],
   "articles": [
+    {
+      "title": "Norway Chess 2026: Firouzja Perfect 6/6 — R3 TODAY vs Gukesh",
+      "slug": "norway-chess-2026-prize-money",
+      "sport": "Chess",
+      "sportColor": "#1B3A6B",
+      "date": "May 27, 2026",
+      "excerpt": "Firouzja leads with perfect score after beating Carlsen in R1. Schedule, standings, $182K prize breakdown. Round 3 today: Firouzja vs Gukesh.",
+      "readTime": "5 min"
+    },
+    {
+      "title": "Magnus Carlsen Net Worth 2026: $25-35M — Career Earnings",
+      "slug": "magnus-carlsen-earnings",
+      "sport": "Chess",
+      "sportColor": "#1B3A6B",
+      "date": "Apr 2026",
+      "excerpt": "$12.2M in career prizes, $10M+ from Play Magnus/Chess.com, $2M/yr endorsements. How the greatest chess player built his $25-35M fortune.",
+      "readTime": "6 min"
+    },
+    {
+      "title": "Hikaru Nakamura Earnings: $1.1M Prizes, $10-20M Net Worth",
+      "slug": "hikaru-nakamura-earnings",
+      "sport": "Chess",
+      "sportColor": "#1B3A6B",
+      "date": "May 2026",
+      "excerpt": "Career tournament earnings: $1.1M. Net worth: $10-20M. Streaming income: $1.35M/year. The streaming revolution that changed chess economics.",
+      "readTime": "5 min"
+    },
+    {
+      "title": "Hans Niemann 2026: $234K in 2025 — Full Career Earnings",
+      "slug": "hans-niemann-chess-earnings",
+      "sport": "Chess",
+      "sportColor": "#1B3A6B",
+      "date": "Apr 2026",
+      "excerpt": "2025 was Niemann's best year at $234,994 — top 15 globally. From the Carlsen controversy and $100M lawsuit to world top-20 ranking.",
+      "readTime": "5 min"
+    },
+    {
+      "title": "Chess Prize Money Guide 2026: All Major Tournaments",
+      "slug": "chess-prize-money-guide",
+      "sport": "Chess",
+      "sportColor": "#1B3A6B",
+      "date": "May 2026",
+      "excerpt": "Esports World Cup $1.5M, Grand Chess Tour $2M, Norway Chess $182K. How chess prize money works and how the top players earn their living.",
+      "readTime": "6 min"
+    },
+    {
+      "title": "NFL Highest Paid Players 2026: Parsons #1 at $86M",
+      "slug": "nfl-highest-paid-players-2026",
+      "sport": "NFL",
+      "sportColor": "#003F8A",
+      "date": "May 2026",
+      "excerpt": "First time a non-QB leads NFL earnings. Parsons $86.4M edges Mahomes $84.7M. Full top-15, record contracts, the 11-player $50M+ QB era.",
+      "readTime": "6 min"
+    },
+    {
+      "title": "MLB Highest Paid Players 2026: Ohtani $127M, Soto $61.9M",
+      "slug": "mlb-highest-paid-players-2026",
+      "sport": "MLB",
+      "sportColor": "#002D72",
+      "date": "May 2026",
+      "excerpt": "Ohtani tops the list with $125M in endorsements despite a $2M salary. Soto leads cash at $61.9M. Full MLB salary rankings.",
+      "readTime": "6 min"
+    },
+    {
+      "title": "MLB's Biggest Contracts: Soto $765M, Ohtani $700M",
+      "slug": "mlb-biggest-contracts",
+      "sport": "MLB",
+      "sportColor": "#002D72",
+      "date": "May 2026",
+      "excerpt": "Two largest contracts in professional sports history, signed 8 months apart. Side-by-side breakdown, deferred vs nominal value, all-time top 10.",
+      "readTime": "5 min"
+    },
+    {
+      "title": "NBA Highest Paid Players 2026: Curry $55.7M, LeBron $51.4M",
+      "slug": "nba-highest-paid-players-2026",
+      "sport": "NBA",
+      "sportColor": "#C9082A",
+      "date": "May 2026",
+      "excerpt": "Full NBA salary rankings 2025-26. Curry #1, LeBron #2, Brunson #8. Plus: Wembanyama at #30 on $13.4M — the contract extension that changes everything.",
+      "readTime": "5 min"
+    },
     {
       "title": "Kimi Antonelli 2026: 4 F1 Wins on a $2M Salary",
       "slug": "kimi-antonelli-2026-season",

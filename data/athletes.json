@@ -941,6 +941,316 @@
           "slug": "f1-2026-prize-fund-breakdown"
         }
       ]
+    },
+    {
+      "id": "magnus-carlsen",
+      "name": "Magnus Carlsen",
+      "sport": "Chess",
+      "sportColor": "#1B3A6B",
+      "team": "Norway",
+      "nationality": "🇳🇴 Norway",
+      "note": "Greatest chess player in history. 5x Classical World Champion. Net worth $25-35M. Norway Chess 2026 in progress — currently 5th after R2 loss to Firouzja.",
+      "payouts": [
+        {
+          "event": "Norway Chess 2026",
+          "year": 2026,
+          "result": "5th after R2 · in progress",
+          "payout": "TBD (up to ~$76,000)",
+          "type": "Tournament Prize",
+          "slug": "norway-chess-2026-prize-money"
+        },
+        {
+          "event": "CCT 2025-26 (so far)",
+          "year": 2026,
+          "result": "Prize money leader",
+          "payout": "$153,713",
+          "type": "Online Tournament",
+          "slug": "chess-prize-money-guide"
+        },
+        {
+          "event": "Esports World Cup 2025",
+          "year": 2025,
+          "result": "1st Place",
+          "payout": "$250,000",
+          "type": "Tournament Prize",
+          "slug": "chess-prize-money-guide"
+        },
+        {
+          "event": "Career Prize Money (traditional)",
+          "year": 2025,
+          "result": "5x World Champion",
+          "payout": "$12,200,000+",
+          "type": "Career Total",
+          "slug": "magnus-carlsen-earnings"
+        },
+        {
+          "event": "Career Online Prize Money",
+          "year": 2026,
+          "result": "Chess.com events",
+          "payout": "$1,821,051",
+          "type": "Online Career Total",
+          "slug": "magnus-carlsen-earnings"
+        }
+      ]
+    },
+    {
+      "id": "hikaru-nakamura",
+      "name": "Hikaru Nakamura",
+      "sport": "Chess",
+      "sportColor": "#1B3A6B",
+      "team": "United States",
+      "nationality": "🇺🇸 United States",
+      "note": "5x US Chess Champion. #1 in blitz. CCT 2025-26 points leader (162 pts). Estimated net worth $10-20M — majority from Twitch/YouTube streaming, not tournament prizes.",
+      "payouts": [
+        {
+          "event": "CCT 2025-26 (so far)",
+          "year": 2026,
+          "result": "Points leader (162 pts)",
+          "payout": "~$100,000+",
+          "type": "Online Tournament",
+          "slug": "hikaru-nakamura-earnings"
+        },
+        {
+          "event": "Esports World Cup 2025",
+          "year": 2025,
+          "result": "3rd Place",
+          "payout": "$145,000",
+          "type": "Tournament Prize — career best single event",
+          "slug": "hikaru-nakamura-earnings"
+        },
+        {
+          "event": "Career Prize Money (traditional)",
+          "year": 2026,
+          "result": "341 tracked tournaments",
+          "payout": "$1,108,458",
+          "type": "Career Total",
+          "slug": "hikaru-nakamura-earnings"
+        },
+        {
+          "event": "Streaming Income (est. annual)",
+          "year": 2026,
+          "result": "Twitch + YouTube",
+          "payout": "~$1,350,000-$1,688,000",
+          "type": "Content Revenue (est.)",
+          "slug": "hikaru-nakamura-earnings"
+        }
+      ]
+    },
+    {
+      "id": "hans-niemann",
+      "name": "Hans Niemann",
+      "sport": "Chess",
+      "sportColor": "#1B3A6B",
+      "team": "United States",
+      "nationality": "🇺🇸 United States",
+      "note": "World #20 (2728 FIDE). Career prize money ~$500K+. 2025 was career best at $234,994 — top 15 globally. Settled $100M Carlsen defamation lawsuit. EWC 2026 qualified.",
+      "payouts": [
+        {
+          "event": "2025 Chess Prize Money (total)",
+          "year": 2025,
+          "result": "Top 15 globally",
+          "payout": "$234,994",
+          "type": "Annual Tournament Total — career best",
+          "slug": "hans-niemann-chess-earnings"
+        },
+        {
+          "event": "Las Vegas Freestyle Chess 2025",
+          "year": 2025,
+          "result": "Runner-up",
+          "payout": "$140,000",
+          "type": "Tournament Prize — single best",
+          "slug": "hans-niemann-chess-earnings"
+        },
+        {
+          "event": "Esports World Cup 2026",
+          "year": 2026,
+          "result": "Qualified",
+          "payout": "Up to $250,000",
+          "type": "Tournament Prize (upcoming)",
+          "slug": "chess-prize-money-guide"
+        }
+      ]
+    },
+    {
+      "id": "alireza-firouzja",
+      "name": "Alireza Firouzja",
+      "sport": "Chess",
+      "sportColor": "#1B3A6B",
+      "team": "France",
+      "nationality": "🇫🇷 France",
+      "note": "22 years old. Leads Norway Chess 2026 with perfect 6/6 after Round 2. Beat Magnus Carlsen in classical chess for the first time in Round 1. Top 5 in the world.",
+      "payouts": [
+        {
+          "event": "Norway Chess 2026",
+          "year": 2026,
+          "result": "LEADS — 6/6 after Round 2",
+          "payout": "Up to ~$76,000",
+          "type": "Tournament Prize (in progress)",
+          "slug": "norway-chess-2026-prize-money"
+        }
+      ]
+    },
+    {
+      "id": "shohei-ohtani",
+      "name": "Shohei Ohtani",
+      "sport": "MLB",
+      "sportColor": "#002D72",
+      "team": "Los Angeles Dodgers",
+      "nationality": "🇯🇵 Japan",
+      "note": "2x Dodgers World Series champion (2024, 2025). $700M contract — 97% deferred to 2034-43. $125M in endorsements makes him the highest-earning baseball player despite $2M salary. 3x NL MVP.",
+      "payouts": [
+        {
+          "event": "2026 MLB Salary",
+          "year": 2026,
+          "result": "3x NL MVP",
+          "payout": "$2,000,000",
+          "type": "Cash Salary (deferred contract)",
+          "slug": "mlb-highest-paid-players-2026"
+        },
+        {
+          "event": "2026 Endorsements",
+          "year": 2026,
+          "result": "~20 brand partners",
+          "payout": "~$125,000,000",
+          "type": "Endorsements (record for any athlete)",
+          "slug": "mlb-highest-paid-players-2026"
+        },
+        {
+          "event": "Dodgers Contract 2024-2033",
+          "year": 2024,
+          "result": "Signed Dec 2023",
+          "payout": "$700,000,000 total",
+          "type": "10-year contract · $680M deferred",
+          "slug": "mlb-biggest-contracts"
+        }
+      ]
+    },
+    {
+      "id": "juan-soto",
+      "name": "Juan Soto",
+      "sport": "MLB",
+      "sportColor": "#002D72",
+      "team": "New York Mets",
+      "nationality": "🇩🇴 Dominican Republic",
+      "note": "Signed the largest contract in professional sports history — 15 years, $765M, zero deferred money. Cash salary #1 in MLB at $61.9M. Opt-out after Year 5.",
+      "payouts": [
+        {
+          "event": "2026 MLB Salary",
+          "year": 2026,
+          "result": "Mets LF",
+          "payout": "$61,900,000",
+          "type": "Cash Salary — highest in MLB 2026",
+          "slug": "mlb-highest-paid-players-2026"
+        },
+        {
+          "event": "Mets Contract 2025-2039",
+          "year": 2024,
+          "result": "Signed Dec 2024",
+          "payout": "$765,000,000 total",
+          "type": "15-year contract · zero deferred · largest ever",
+          "slug": "mlb-biggest-contracts"
+        }
+      ]
+    },
+    {
+      "id": "aaron-judge",
+      "name": "Aaron Judge",
+      "sport": "MLB",
+      "sportColor": "#002D72",
+      "team": "New York Yankees",
+      "nationality": "🇺🇸 United States",
+      "note": "2022 AL MVP with 62 home runs (American League record). Signed 9-year, $360M extension with the Yankees in Dec 2022.",
+      "payouts": [
+        {
+          "event": "2026 MLB Salary",
+          "year": 2026,
+          "result": "Yankees RF",
+          "payout": "$49,000,000",
+          "type": "Annual Salary",
+          "slug": "mlb-highest-paid-players-2026"
+        },
+        {
+          "event": "Yankees Contract 2023-2031",
+          "year": 2022,
+          "result": "Signed Dec 2022",
+          "payout": "$360,000,000 total",
+          "type": "9-year extension",
+          "slug": "mlb-biggest-contracts"
+        }
+      ]
+    },
+    {
+      "id": "micah-parsons",
+      "name": "Micah Parsons",
+      "sport": "NFL",
+      "sportColor": "#003F8A",
+      "team": "Green Bay Packers",
+      "nationality": "🇺🇸 United States",
+      "note": "First non-quarterback to lead NFL total earnings. Edge rusher. Record non-QB contract. 2026 total earnings: $86.4M (salary + endorsements). Previously Dallas Cowboys.",
+      "payouts": [
+        {
+          "event": "2026 NFL Total Earnings",
+          "year": 2026,
+          "result": "#1 NFL earner",
+          "payout": "~$86,400,000",
+          "type": "Salary + Endorsements",
+          "slug": "nfl-highest-paid-players-2026"
+        }
+      ]
+    },
+    {
+      "id": "josh-allen",
+      "name": "Josh Allen",
+      "sport": "NFL",
+      "sportColor": "#003F8A",
+      "team": "Buffalo Bills",
+      "nationality": "🇺🇸 United States",
+      "note": "6-year, $330M contract with $250M guaranteed — largest guaranteed sum in NFL history. 2026 total earnings ~$72.6M.",
+      "payouts": [
+        {
+          "event": "2026 NFL Total Earnings",
+          "year": 2026,
+          "result": "Buffalo Bills QB",
+          "payout": "~$72,600,000",
+          "type": "Salary + Endorsements",
+          "slug": "nfl-highest-paid-players-2026"
+        },
+        {
+          "event": "Bills Contract 2025-2030",
+          "year": 2024,
+          "result": "Signed extension",
+          "payout": "$330,000,000 total",
+          "type": "6-year · $55M AAV · $250M guaranteed",
+          "slug": "nfl-highest-paid-players-2026"
+        }
+      ]
+    },
+    {
+      "id": "lamar-jackson",
+      "name": "Lamar Jackson",
+      "sport": "NFL",
+      "sportColor": "#003F8A",
+      "team": "Baltimore Ravens",
+      "nationality": "🇺🇸 United States",
+      "note": "First fully-guaranteed mega-contract in NFL history — 5 years, $260M, every dollar guaranteed. 2x MVP. 2026 total ~$73M.",
+      "payouts": [
+        {
+          "event": "2026 NFL Total Earnings",
+          "year": 2026,
+          "result": "Ravens QB",
+          "payout": "~$73,000,000",
+          "type": "Salary + Endorsements",
+          "slug": "nfl-highest-paid-players-2026"
+        },
+        {
+          "event": "Ravens Contract 2023-2027",
+          "year": 2023,
+          "result": "Signed March 2023",
+          "payout": "$260,000,000 total",
+          "type": "5-year · fully guaranteed · NFL first",
+          "slug": "nfl-highest-paid-players-2026"
+        }
+      ]
     }
   ]
 }
